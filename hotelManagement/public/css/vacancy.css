@@ -1,0 +1,98 @@
+#search {
+	padding-right:0;
+}
+ 
+.table_head th {
+	text-align: center;
+	width:15%;
+}
+#table,#table1,#table2,#table3 {
+	margin:0;
+}
+.div_thead {
+	width: 100%;
+    background: url(../img/2.jpg);
+    background-position-y: -200px;
+    background-size: cover;
+    border-radius: 5px;
+}
+.div_thead1 {
+	border-radius: 5px;
+}
+.div_thead tr {
+    color: white;
+}
+.div_thead th {
+	border:none !important;
+	height:40px;
+}
+.div_tbody {
+	    height: 302px;
+}
+.div_tbody td {
+	width:15%;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    vertical-align: middle !important;
+}
+
+.ul_border {
+	border: none;
+	margin-bottom: 5px;
+}
+ul li a.btn {
+	padding: 7px 15px;
+    margin: 0;
+    border: none;
+    margin-right: 9px;
+        border-radius: 5px;
+}
+
+ul li a.btn:hover {
+	background-color:rgba(91,197,95,0.8)!important;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a.btn:focus {
+    border: none!important;
+    background-color:rgba(91,197,95,0.8)!important;
+    color:#fff !important;
+}
+.click_bk {
+	background-color:rgba(91,197,95,0.8)!important;
+	color:#fff!important;
+}
+
+/* 模态框的样式 */
+#myModal .group input{
+	padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+#myModal tr td:nth-child(2n+1) {
+	width: 73px;
+    
+}
+#myModal tr>td {
+	vertical-align: middle!important;
+	padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    color:#fff;
+    border:none!important;
+}
+#myModal .modal_bc {
+	background-color:rgba(5, 123, 112, 0.8);
+}
+#myModal .tr_bt {
+	font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    height: 50px;
+}
+#myModal .deng_h {
+	color:#fff;
+}
+#myModal .foot_mar {
+	margin-top:0;
+}
+#myModal tr {
+	border:none;
+}

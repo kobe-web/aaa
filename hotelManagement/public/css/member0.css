@@ -1,0 +1,48 @@
+/*个人信息分页面整个div；*/
+.geren{
+	width: 960px;
+	height: 300px;
+	margin: 36px auto;
+}
+/*虚线以上部分：*/
+.geren-shang{
+	height: 30px;
+	width:900px;
+	line-height: 30px;
+	margin: 0 auto;
+	color: #781556;
+	border-bottom: 1px dashed rgba(180, 0, 255, 0.37);
+}
+/*虚线以下部分：*/
+.geren-xia{
+	height: 270px;
+	width: 900px;
+	margin: 8px auto;
+}
+.geren-shang span a{
+	float: right;
+	text-decoration: none;
+}
+.ka{
+	float: left;
+	width: 50%;
+	margin-left: 30px;
+	height: 270px;
+}
+/*会员卡右边的个人信息：*/
+.ka-y{
+	height: 36px;
+	font-weight: bolder;
+	color: #781556;
+}
+.ka-y div{
+	float: left;
+	height: 36px;
+	width: 150px;
+}
+.pp{
+	margin-left: 42px;
+	margin-top:10px;
+	color:#781556;
+	font-weight:bolder;
+}

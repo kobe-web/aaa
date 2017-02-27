@@ -1,0 +1,36 @@
+.login .form-group {
+	/*margin-right: 0!important;*/
+	height: 58px;
+    margin-bottom: 0;
+    overflow-x: hidden;
+}
+.btn_color {
+	color:#fff;
+	background-color:#03a9f4;
+}
+.border {
+	border-top: 1px solid #00BCD4;
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+.error {
+	color:red;
+	font-size: 14px;
+	font-weight: 100;
+	margin-bottom: 0;
+}
+.dip,.dip1 {
+	display: none;
+	color:red;
+}
+#simg {
+	width: 70px;
+    height: 70px;
+    position: relative;
+    top: 240px;
+    right: 170px;
+}
+#file {
+	    position: relative;
+    top: 5px;
+}

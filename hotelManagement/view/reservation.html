@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>华住酒店预订</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/reservation.css">
+	<script src="jquery-1.11.1.min.js" type="text/javascript" ></script>
+	<script src="bootstrap.min.js" type="text/javascript" ></script>
+	<script type="text/javascript" src="reservation.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+	  <div class="tainer-fluid">
+	  <!-- 模态框区域 -->
+	  		   <div id="example" class="modal" style="display:none"> 
+
+			        <div class="modal-header"> 
+			        	<span>请输入用户预定信息</span>
+			            <a class="close" data-dismiss="modal">X</a> 
+			        </div> 
+			        <div class="modal-body"> 
+			            <div class="user-x">真实姓名：<input type="text" name="resident" id="name" placeholder=""></div>
+			            <div class="user-x">手机号码：<input type="number" name="tel" id="tel"></div>
+			            <div class="user-x">证件号码：<input type="number" name="idcard" id="psd"></div>
+			          	<div class="user-x">入住时间：<input type="" name="ondate" id="ondate"></div>
+			        	<div class="user-x">入住天数：<input type="number" name="zhudate" id="zhudate"></div>
+			        </div> 
+			        <div class="modal-footer"> 
+			            <button class="btn btn-success">确认预定</button>
+			            <button class="btn" data-dismiss="modal">关闭</button>
+			        </div> 
+			    </div> 
+	<!-- 模态框结束 -->	    
+	  <!-- 头部样式 -->
+	   <div class="top-1">
+	     <div class="top-2 pull-left"></div>
+	     <ul class="top-3 pull-right list-inline">
+	     	<li class="top-4 small_purpleuser"></li>
+	     	<li class="top-4">
+	     		<a href="denglu.html">我的华住</a>
+	     	</li>
+	     	<li class="top-4">
+	     		<a href="denglu.html">登录</a>
+	     	</li>
+	     	<li class="top-4">
+	     		<a href="zhucei.html">注册</a>
+	     	</li>
+	     </ul>
+	   </div>
+	   <!-- 导航条 -->
+	   <div class="navlinks">
+	     <ul class="list-inline  listinline">
+	     	<li class="Lfll"><a href="shou.html">首页</a></li>
+	     	<li class="Lfll" id="yuding"><a href="#tb">酒店预订</a></li>
+	     	<li class="Lfll"><a href="xiangc.html">酒店相册</a></li>
+	     	<li class="Lfll"><a href="guangyu.html">关于好客汇</a></li>
+	     </ul>
+	   </div>
+	   <!-- 酒店介绍 -->
+	   <div class="container posbox">
+		<ul class="nav nav-tabs" role="tablist">
+		  <li role="presentation" class="active">
+		  <a href="#home" role="tab" data-toggle="tab">上海</a>
+		  </li>
+		  <li role="presentation">
+		  <a href="#profile" role="tab" data-toggle="tab">深圳</a>
+		  </li>
+		  <li role="presentation">
+		  <a href="#messages" role="tab" data-toggle="tab">北京</a>
+		  </li>
+		  
+		</ul>
+       <div class="tab-content">
+		<!-- 第一个标签页 -->
+		 <div role="tabpanel" class="tab-pane active" id="home">
+		  <div>
+		   <div class="contentbox">
+		   	  <div class="contentbox-1 pull-left"></div>
+		   	  <div class="contentbox-2 pull-right">
+		   	     <div class="contentbox-3 pull-left">
+		   	      <dl>
+		   	      	<dt><a href="#">上海虹桥枢纽美居酒店</a></dt>
+		   	      	<dd>上海市长宁区空港一路398号，虹桥机场一号航站楼对面</dd>
+		   	      </dl>
+		   	      <ul class="list-inline">
+		   	      	<li class="contentbox-3-m"></li>
+		   	      	<li class="contentbox-3-n">大家说：位置优越</li>
+		   	      </ul>
+		   	      <ul class="list-inline">
+		   	      	<li class="conbox-1 conbox"></li>
+		   	      	<li class="conbox-2 conbox"></li>
+		   	      	<li class="conbox-3 conbox"></li>
+		   	      	<li class="conbox-4 conbox"></li>
+		   	      </ul>
+		   	     </div>
+		   	     <div class="contentbox-4 pull-right">
+		   	     <dl>
+		   	     	<dt class="conten-1">￥<span>599</span>起</dt>
+		   	     </dl>
+		   	     <ul class="list-inline contentbox-4-m">
+		   	     	<li class="conten-2"></li>
+		   	     	<li class="conten-2"></li>
+		   	     	<li class="conten-2"></li>
+		   	     	<li class="conten-2"></li>
+		   	     	<li class="conten-2n"></li>
+		   	     </ul>
+		   	     </div>
+		   	  </div>
+		   	  </div>
+
+		   	
+		   	  <!-- 价格表 -->
+		   	  <div class="filteritem">
+		   	   <table class="name" id="tb">
+		   	   	<thead>
+		   	   		<tr>
+		   	   			<th>房型</th>
+		   	   			<th>床型</th>
+		   	   			<th>活动</th>
+		   	   			<th>早餐</th>
+		   	   			<th>房价</th>
+		   	   		</tr>
+		   	   	</thead>
+		   	   	<tbody>
+		   	   		<tr>
+		   	   			<td class="item">豪华单人间</td>
+		   	   			<td class="item">大床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥599</s><span>￥479</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订"></td>
+		   	   		</tr>
+		   	   		<tr>
+		   	   			<td class="item">标准单人间</td>
+		   	   			<td class="item">大床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥359</s><span>￥305</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订" ></td>
+		   	   		</tr>
+		   	   		<tr>
+		   	   			<td class="item">标准双人间</td>
+		   	   			<td class="item">双床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥409</s><span>￥348</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订" ></td>
+		   	   		</tr>
+		   	   		<tr>
+		   	   			<td class="item">豪华双人间</td>
+		   	   			<td class="item">双床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥459</s><span>￥390</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订" ></td>
+		   	   		</tr>
+		   	   		<tr>
+		   	   			<td class="item">贵宾套房</td>
+		   	   			<td class="item">大床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥888</s><span>￥666</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订" ></td>
+		   	   		</tr>
+		   	   		<tr>
+		   	   			<td class="item">总统套房</td>
+		   	   			<td class="item">大床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥9999</s><span>￥8888</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订" ></td>
+		   	   		</tr>
+		   	   	</tbody>
+		   	   </table>
+		   	  </div>
+		   	  <!-- 酒店介绍 -->
+		   	  <div class="Lcfx-commentitem">
+		   	   <dl>
+		   	   	<dt class="check1-1">酒店概况</dt>
+		   	   	<dd class="check1-2">酒店电话
+		   	   	 <label class="label-1">021-62682266&nbsp;酒店传真：021-62680277
+		   	   	 </label>
+		   	   	</dd>
+		   	   	<dd class="check1-2" >
+		   	   	<span>酒店介绍</span>
+			   	   	<label class="label-1">上海虹桥枢纽美居酒店位于虹桥枢纽中心毗邻虹桥一号航站楼及虹桥火车站，驱车五分钟到达2号航站楼，
+			   	   	</label>
+		   	   	</dd>
+                <dd class="check1-2" >
+                <span>入住提示</span>
+                <label class="label-1">
+                酒店通常在14：00后开始办理入住，如果早到可能需要等待
+				为了给客人提供更方便的服务，酒店向在住店客人提供早晨的接驳车服务，送虹桥T2航站楼和火车站。</label>
+                </dd>
+		   	   	<dd class="check1-2" >
+			   	   	<span>综合设施</span>
+			   	   	<label class="label-1">商品销售</label>
+			   	   	<label class="label-1">POS机</label>
+			   	   	<label class="label-1">停车场</label>
+			   	   	<label class="label-1">大堂wifi覆盖</label>
+			   	   	<label class="label-1">大厅上网</label>
+			   	   	<label class="label-1">会议室</label>
+			   	   	<label class="label-1">商务休息区</label>
+		   	   	</dd>
+		   	   	<dd class="check1-2" >
+		   	   	    <span>服务项目</span>
+		   	   	    <label class="label-1">客衣送洗服务</label>
+			   	   	<label class="label-1">叫醒服务</label>
+			   	   	<label class="label-1">行李寄存</label>
+			   	   	<label class="label-1">机场/火车站接送</label>
+		   	   	</dd>
+		   	   	<dd class="check1-2" >
+		   	   	    <span>客房设施</span>
+		   	   	    <label class="label-1">宽带上网接口</label>
+			   	   	<label class="label-1">客房Wifi覆盖</label>
+			   	   	<label class="label-1"> 免费咖啡包</label>
+			   	   	<label class="label-1">免费文具用品</label>
+		   	   	</dd>
+		   	   	<dd class="check1-2" >
+		   	   	    <span>娱乐设施</span>
+		   	   	    <label class="label-1">健身室</label>
+		   	   	</dd>
+		   	   	</dd>
+		   	   </dl>
+		   	  </div>
+		   </div>
+
+		  </div>
+		  <!-- 第二个标签页 -->
+		  <div role="tabpanel" class="tab-pane" id="profile">
+		  <div>
+		   <div class="contentbox">
+		   	  <div class="contentbox-b pull-left"></div>
+		   	  <div class="contentbox-2 pull-right">
+		   	     <div class="contentbox-3 pull-left">
+		   	      <dl>
+		   	      	<dt><a href="#">深圳枢纽美居酒店</a></dt>
+		   	      	<dd>酒店位于深南中路的金融区</dd>
+		   	      </dl>
+		   	      <ul class="list-inline">
+		   	      	<li class="contentbox-3-m"></li>
+		   	      	<li class="contentbox-3-n">大家说：服务态度好</li>
+		   	      </ul>
+		   	      <ul class="list-inline">
+		   	      	<li class="conbox-1 conbox"></li>
+		   	      	<li class="conbox-2 conbox"></li>
+		   	      	<li class="conbox-3 conbox"></li>
+		   	      	<li class="conbox-4 conbox"></li>
+		   	      </ul>
+		   	     </div>
+		   	     <div class="contentbox-4 pull-right">
+		   	     <dl>
+		   	     	<dt class="conten-1">￥<span>546</span>起</dt>
+		   	     </dl>
+		   	     <ul class="list-inline contentbox-4-m">
+		   	     	<li class="conten-2"></li>
+		   	     	<li class="conten-2"></li>
+		   	     	<li class="conten-2"></li>
+		   	     	<li class="conten-2"></li>
+		   	     	<li class="conten-2n"></li>
+		   	     </ul>
+		   	     </div>
+		   	  </div>
+		   	  </div>
+		   	  <!-- 价格表 -->
+		   	  <div class="filteritem">
+		   	   <table class="name" id="tb1">
+		   	   	<thead>
+		   	   		<tr>
+		   	   			<th>房型</th>
+		   	   			<th>床型</th>
+		   	   			<th>活动</th>
+		   	   			<th>早餐</th>
+		   	   			<th>房价</th>
+		   	   		</tr>
+		   	   	</thead>
+		   	   	<tbody>
+		   	   		<tr>
+		   	   			<td class="item">豪华单人间</td>
+		   	   			<td class="item">大床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥599</s><span>￥479</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订"></td>
+		   	   		</tr>
+		   	   		<tr>
+		   	   			<td class="item">标准单人间</td>
+		   	   			<td class="item">大床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥359</s><span>￥305</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订"></td>
+		   	   		</tr>
+		   	   		<tr>
+		   	   			<td class="item">标准双人间</td>
+		   	   			<td class="item">双床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥409</s><span>￥348</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订"></td>
+		   	   		</tr>
+		   	   		<tr>
+		   	   			<td class="item">豪华双人间</td>
+		   	   			<td class="item">双床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥459</s><span>￥390</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订"></td>
+		   	   		</tr>
+		   	   		<tr>
+		   	   			<td class="item">贵宾套房</td>
+		   	   			<td class="item">大床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥888</s><span>￥666</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订"></td>
+		   	   		</tr>
+		   	   		<tr>
+		   	   			<td class="item">总统套房</td>
+		   	   			<td class="item">大床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥9999</s><span>￥8888</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订"></td>
+		   	   		</tr>
+		   	   	</tbody>
+		   	   </table>
+		   	  </div>
+		   	  <!-- 酒店介绍 -->
+		   	  <div class="Lcfx-commentitem">
+		   	   <dl>
+		   	   	<dt class="check1-1">酒店概况</dt>
+		   	   	<dd class="check1-2">儿童政策
+		   	   	 <label class="label-1">1名16岁以下的儿童入住父母房，住宿和早餐免费。
+		   	   	 </label>
+		   	   	</dd>
+		   	   	<dd class="check1-2" >
+		   	   	<span>酒店介绍</span>
+			   	   	<label class="label-1">深圳万德诺富特酒店是前往港口城市深圳（中国第一个经济特区）商旅出差的客人的绝佳目的地，酒店位于深南中路的金融区。
+			   	   	</label>
+		   	   	</dd>
+                <dd class="check1-2" >
+                <span>入住提示</span>
+                <label class="label-1">入住时间：14:00:00 以后</label>
+                <label class="label-1">离店时间：12:00:00 以前</label>
+                </dd>
+		   	   	<dd class="check1-2" >
+			   	   	<span>综合设施</span>
+			   	   	<label class="label-1">商品销售</label>
+			   	   	<label class="label-1">POS机</label>
+			   	   	<label class="label-1">停车场</label>
+			   	   	<label class="label-1">大堂wifi覆盖</label>
+			   	   	<label class="label-1">大厅上网</label>
+			   	   	<label class="label-1">会议室</label>
+			   	   	<label class="label-1">商务休息区</label>
+		   	   	</dd>
+		   	   	<dd class="check1-2" >
+		   	   	    <span>服务项目</span>
+		   	   	    <label class="label-1">客衣送洗服务</label>
+			   	   	<label class="label-1">叫醒服务</label>
+			   	   	<label class="label-1">行李寄存</label>
+			   	   	<label class="label-1">机场/火车站接送</label>
+		   	   	</dd>
+		   	   	<dd class="check1-2" >
+		   	   	    <span>客房设施</span>
+		   	   	    <label class="label-1">宽带上网接口</label>
+			   	   	<label class="label-1">客房Wifi覆盖</label>
+			   	   	<label class="label-1"> 免费咖啡包</label>
+			   	   	<label class="label-1">免费文具用品</label>
+		   	   	</dd>
+		   	   	<dd class="check1-2" >
+		   	   	    <span>娱乐设施</span>
+		   	   	    <label class="label-1">健身室</label>
+		   	   	</dd>
+		   	   	</dd>
+		   	   </dl>
+		   	  </div>
+		   </div>
+		  </div>
+		  <!-- 第三个标签页 -->
+		  <div role="tabpanel" class="tab-pane" id="messages">
+		    <div>
+		   <div class="contentbox">
+		   	  <div class="contentbox-c pull-left"></div>
+		   	  <div class="contentbox-2 pull-right">
+		   	     <div class="contentbox-3 pull-left">
+		   	      <dl>
+		   	      	<dt><a href="#">北京枢纽美居酒店</a></dt>
+		   	      	<dd>北京市丰台区大红门西马场甲14号集美家居西门</dd>
+		   	      </dl>
+		   	      <ul class="list-inline">
+		   	      	<li class="contentbox-3-m"></li>
+		   	      	<li class="contentbox-3-n">大家说：性价比高</li>
+		   	      </ul>
+		   	      <ul class="list-inline">
+		   	      	<li class="conbox-1 conbox"></li>
+		   	      	<li class="conbox-2 conbox"></li>
+		   	      	<li class="conbox-3 conbox"></li>
+		   	      	<li class="conbox-4 conbox"></li>
+		   	      </ul>
+		   	     </div>
+		   	     <div class="contentbox-4 pull-right">
+		   	     <dl>
+		   	     	<dt class="conten-1">￥<span>560</span>起</dt>
+		   	     </dl>
+		   	     <ul class="list-inline contentbox-4-m">
+		   	     	<li class="conten-2"></li>
+		   	     	<li class="conten-2"></li>
+		   	     	<li class="conten-2"></li>
+		   	     	<li class="conten-2"></li>
+		   	     	<li class="conten-2n"></li>
+		   	     </ul>
+		   	     </div>
+		   	  </div>
+		   	  </div>
+		   	  <!-- 价格表 -->
+		   	  <div class="filteritem">
+		   	   <table class="name">
+		   	   	<thead>
+		   	   		<tr>
+		   	   			<th>房型</th>
+		   	   			<th>床型</th>
+		   	   			<th>活动</th>
+		   	   			<th>早餐</th>
+		   	   			<th>房价</th>
+		   	   		</tr>
+		   	   	</thead>
+		   	   	<tbody>
+		   	   		<tr>
+		   	   			<td class="item">豪华单人间</td>
+		   	   			<td class="item">大床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥599</s><span>￥479</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订"></td>
+		   	   		</tr>
+		   	   		<tr>
+		   	   			<td class="item">标准单人间</td>
+		   	   			<td class="item">大床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥359</s><span>￥305</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订"></td>
+		   	   		</tr>
+		   	   		<tr>
+		   	   			<td class="item">标准双人间</td>
+		   	   			<td class="item">双床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥409</s><span>￥348</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订"></td>
+		   	   		</tr>
+		   	   		<tr>
+		   	   			<td class="item">豪华双人间</td>
+		   	   			<td class="item">双床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥459</s><span>￥390</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订"></td>
+		   	   		</tr>
+		   	   		<tr>
+		   	   			<td class="item">贵宾套房</td>
+		   	   			<td class="item">大床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥888</s><span>￥666</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订"></td>
+		   	   		</tr>
+		   	   		<tr>
+		   	   			<td class="item">总统套房</td>
+		   	   			<td class="item">大床</td>
+                        <td class="item">新店8折</td>
+		   	   			<td class="item">包含早餐</td>
+		   	   			<td class="item"><s>￥9999</s><span>￥8888</span></td>
+		   	   			<td class="item yu"><input type="button" name="" value="预订"></td>
+		   	   		</tr>
+		   	   	</tbody>
+		   	   </table>
+		   	  </div>
+		   	  <!-- 酒店介绍 -->
+		   	  <div class="Lcfx-commentitem">
+		   	   <dl>
+		   	   	<dt class="check1-1">酒店概况</dt>
+		   	   	<dd class="check1-2">酒店电话
+		   	   	 <label class="label-1">010-63820888酒店传真：010-87245302
+		   	   	 </label>
+		   	   	</dd>
+		   	   	<dd class="check1-2" >
+		   	   	<span>酒店介绍</span>
+			   	   	<label class="label-1">汉庭酒店北京公益东桥店位于北京南四环公益东桥北侧集美家居大红门店西门。 地铁十号线角门东站A口向南5分钟即到
+			   	   	</label>
+		   	   	</dd>
+                <dd class="check1-2" >
+                <span>入住提示</span>
+                <label class="label-1">酒店通常在14：00后开始办理入住，如果早到可能需要等待</label>
+                </dd>
+		   	   	<dd class="check1-2" >
+			   	   	<span>综合设施</span>
+			   	   	<label class="label-1">商品销售</label>
+			   	   	<label class="label-1">POS机</label>
+			   	   	<label class="label-1">停车场</label>
+			   	   	<label class="label-1">大堂wifi覆盖</label>
+			   	   	<label class="label-1">大厅上网</label>
+			   	   	<label class="label-1">会议室</label>
+			   	   	<label class="label-1">商务休息区</label>
+		   	   	</dd>
+		   	   	<dd class="check1-2" >
+		   	   	    <span>服务项目</span>
+		   	   	    <label class="label-1">客衣送洗服务</label>
+			   	   	<label class="label-1">叫醒服务</label>
+			   	   	<label class="label-1">行李寄存</label>
+		   	   	</dd>
+		   	   	<dd class="check1-2" >
+		   	   	    <span>客房设施</span>
+		   	   	    <label class="label-1">宽带上网接口</label>
+			   	   	<label class="label-1">客房Wifi覆盖</label>
+			   	   	<label class="label-1"> 免费咖啡包</label>
+			   	   	<label class="label-1">免费文具用品</label>
+		   	   	</dd>
+		   	   	<dd class="check1-2" >
+		   	   	    <span>娱乐设施</span>
+		   	   	    <label class="label-1">健身室</label>
+		   	   	</dd>
+		   	   	</dd>
+		   	   </dl>
+		   	  </div>
+		   </div>
+		  </div>
+		<!-- </div> -->
+	  <!-- </div> -->
+	  	<div class="bbbbb">
+	  	<ul class="list-inline bbbbb-1">
+	  		<li><a href="#">关于好汇客</a></li>
+	  		<li><a href="#">酒店加盟</a></li>
+	  		<li><a href="#">职位招聘</a></li>
+	  		<li><a href="#">联系我们</a></li>
+	  	</ul>
+	  	<p>
+	  	沪ICP备12041475 | ©2016 Huazhu All Rights reserved. 华住酒店管理有限公司
+	  	</p>
+	  		
+	  	</div>
+</body>
+</html>

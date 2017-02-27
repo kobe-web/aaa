@@ -1,0 +1,159 @@
+body {
+	min-width: 1010px;
+	
+	background-color:rgba(220,165,234,0.4) ;
+}
+.bj2 {
+	background: url(../img/h.jpg) center;
+	    background-size: cover;
+    background-position-y: -250px;
+}
+.bjtp {
+	background-color: rgba(198, 47, 218, 0.1);
+}
+#head {
+	width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+#search {
+	height:470px;
+	overflow-y:hidden;
+	overflow: hidden;
+}
+
+.all {
+	padding-top:10px;
+	padding-bottom: 10px;
+	color:#fff;
+}
+/* 头像区域 */
+.head_area p {
+	margin: 0;
+    margin-top: 2px;
+}
+#welcome,#host,#information,#floor,#sys {
+	cursor: pointer; 
+}
+/* 文字区域 */
+.cont h2{
+	margin-top:5px;
+}
+
+/* 快捷栏区域 */
+.faster span {
+	display: block;
+	margin:0 auto;/*
+	width: 74px;
+    height: 67px;
+	background-size: 300px;*/
+	width:70px;
+	height:70px;
+	background-size: 100%;
+}
+.faster div {
+	text-align:center;
+}
+.faster div p{
+	letter-spacing: 1px;
+    font-size: 14px;
+}
+.faster p {
+	margin:0;
+}
+.faster>p {
+	font-size:20px;
+	padding-left: 20px;
+}
+.tb1 {
+	background: url(../img/home1.png);
+}
+.tb2 {
+	background: url(../img/card.png);
+}
+.tb3 {
+	background: url(../img/sousuo.png);
+}
+.tb4 {
+	background: url(../img/louc.png);
+}
+.tb5 {
+	background: url(../img/szhi.png);
+}
+/* 侧边导航 */
+.sider_all {
+	margin-top:5px;
+}
+.sider .list-group-item{
+	padding:0;
+}
+
+div.mana {
+    padding: 0;
+    border:0 !important;
+}
+.mana ul {
+	margin-bottom: 0;
+    border: 0;
+}
+.mana .last {
+    border-bottom: 0;
+}
+
+.sider {
+	padding:0;
+}
+.panel.panel_margin {
+	border-top:0;
+	border-right:0;
+	margin-top:0 !important;
+}
+.panel-default>.panel-heading.head_bc {
+	color: #fff;
+    padding: 0;
+    background: url(../img/3.jpg) center center;
+    background-size: cover;
+	color:#fff;
+	padding: 0;
+}
+.panel-default>.panel-heading.head_bc a {
+	display: inline-block;
+    width: 100%;
+    padding:10px;
+    padding-left: 15px;
+    padding-right: 5px;
+    background-color:rgba(125, 63, 181, 0.7);
+}
+/* 右侧导航栏 a链接的下划线 */
+.sider_all a:hover {
+	text-decoration: none;
+}
+
+.mana.mana1 li {
+	padding:0;
+}
+
+.mana a {
+	padding: 10px 15px;
+    width: 100%;
+    display: inline-block;
+    color:black;
+}
+/* 功能完成提示*/
+.fish {
+	color: #fff;
+    background-color: rgba(33,150,243,0.8);
+    width: 280px;
+    height: 140px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    line-height: 140px;
+    font-size: 26px;
+    display: none;
+}

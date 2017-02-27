@@ -1,0 +1,27 @@
+.member1{
+	width: 960px;
+	height: 400px;
+	overflow: hidden;
+	margin: 0 auto;
+	border: 5px inset rgba(153, 113, 173, 0.13);
+}
+.member1-top{
+	height: 30px;
+	width:900px;
+	line-height: 30px;
+	margin: 0 auto;
+	border-bottom: 1px dashed #781556;
+	color:  #7D2E4F;
+}
+.member1_table {
+	margin: 0 auto;
+	width: 900px;
+	margin-top: 20px;
+}
+.member1_table th,td{
+	background-color: #E6D8D8;
+	border: 2px outset #F5F4F4;
+	width: 20%;
+	height:30px;
+	text-align: center;
+}

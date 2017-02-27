@@ -1,0 +1,51 @@
+html {
+	height: 100%;
+ }
+ #search {
+	padding-right:0;
+}
+.div_thead {
+	width: 100%;
+    background: url(../img/2.jpg);
+    background-position-y: -200px;
+    background-size: cover;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.div_thead tr {
+    color: white;
+}
+.div_thead th {
+	border:none !important;
+	height:40px;
+	text-align: center;
+	width: 15%;
+}
+#tbody td {
+	width: 15%;
+	padding-top:4px;
+	padding-bottom: 4px;
+}
+.table {
+	margin-bottom:0;
+}
+#myModal tr td:nth-child(2n+1) {
+	width: 72px;
+	text-align: right;
+}
+#myModal tr td {
+	border:none;
+}
+.table td {
+	vertical-align: middle!important;
+}
+.modal_bc {
+	color:#fff;
+	background-color:rgba(5, 123, 112, 0.8);
+}
+.input_left {
+	padding-left: 0;
+}
+.div_tbody {
+	height:302px;
+}

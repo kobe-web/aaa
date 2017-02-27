@@ -1,0 +1,46 @@
+.member2-top{
+	text-align: center;
+}
+.member2 {
+	width: 960px;
+	height: 420px;
+	margin: 0 auto;
+}
+.member2_top{
+	height: 40px;
+	width:960px;
+	line-height: 20px;
+	margin: 0 auto;
+	/*border-bottom: 2px dashed #F3BA66;*/
+	color:  #7D2E4F;
+}
+.jifen{
+	float: left;
+	height: 20px;
+}
+.jifeng{
+	float: left;
+	width: 50px;
+	height: 20px;
+	color: #0FDE1F;
+	font-weight: "border";
+	border-bottom: 1px solid #7D2E4F;
+}
+.member2_xia{
+	width: 100%;
+	height: 100%;
+}
+.shop_list {
+	height: 49%;
+	width: 100%;
+}
+.member2_shop {
+	float: left;
+	width: 25%;
+	height:100%;
+	text-align: center;
+	border: 1px solid rgba(128, 58, 181, 0.28);
+}
+.member2_shop button {
+	border-radius: 5px;
+}

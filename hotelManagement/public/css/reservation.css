@@ -1,0 +1,257 @@
+body {
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑", "宋体", "Arial Narrow";
+}
+a:hover {
+	text-decoration: none;
+}
+li{
+	 margin:0;
+	 padding:0; 
+	 list-style: none;
+}
+.tainer-fluid {
+	min-width: 1100px;
+}
+.container-fluid {
+	padding: 0;
+}
+/*头部样式*/
+
+.top-1 {
+	height: 55px;
+	line-height: 100%;
+	background-image: url(../img/h2.png);
+	background-position: top;
+}
+.top-2 {
+	background-image: url(../img/h6.png);
+	height: 50px;
+	width: 200px;
+	margin-left: 50px;
+}
+.small_purpleuser {
+	height: 33px;
+	width: 33px;
+	background-image: url(../img/h3.png);
+	background-position: 5px 610px;
+} 
+.top-3 {
+	margin-right: 60px;
+}
+.top-4 a {
+	color: #333;
+}
+.top-4:hover a {
+	color: purple;
+}
+/*导航条*/
+.navlinks {
+	height: 50px;
+	background-image: url(../img/h1.png);
+	background-position: 50% 30%;
+}
+.navlinks .Lfll a {
+	font-size: 18px;
+	color: #fff;
+	height: 50px;
+	line-height: 100%;
+}
+.Lfll {
+	margin-right: 50px;
+}
+.listinline {
+	margin-left: 45px;
+	padding-top: 15px;
+}
+/*标签页1样式*/
+  .posbox {
+  	margin-top: 60px;
+  }
+  .contentbox {
+  	margin-top: 50px;
+  	margin-bottom: 50px;
+  	height: 160px;
+  }
+  .contentbox-1 {
+  	width: 190px;
+  	height: 160px;
+  	border: 1px solid white;
+  	border-radius: 5px; 
+  	background-image: url(../img/h5.jpg);
+  }
+  .contentbox-2 {
+  	height: 160px;
+  	width: 700px;
+  	margin-right: 230px;
+  }
+  .contentbox-3 {
+  	height: 160px;
+  	width: 400px;
+  }
+  .contentbox-3 dt a {
+  	font-size: 25px;
+  	color: purple;
+  }
+  .contentbox-3 dd {
+     margin-top: 15px;
+  }
+  .contentbox-3-m {
+    height: 15px;
+    width: 30px;
+    background-image: url(../img/h3.png);
+    background-position: 154px -330px;
+  }
+  .contentbox-3-n {
+  	color: purple;
+  	font-size: 16px;
+  }
+  .conbox {
+  	height: 30px;
+  	width: 25px;
+  }
+  .conbox-1 {
+  	background-image: url(../img/h3.png);
+  	background-position: 128px -43px;
+  }
+  .conbox-2 {
+  	background-image: url(../img/h3.png);
+  	background-position: 150px -93px;
+  }
+  .conbox-3 {
+  	background-image: url(../img/h3.png);
+  	background-position: 153px -144px;
+  }
+  .conbox-4 {
+  	background-image: url(../img/h3.png);
+  	background-position: 126px -144px;
+  }
+   .contentbox-4 {
+  	height: 160px;
+  	width: 300px;
+  }
+  .contentbox-4 dl {
+  	text-align: center;
+  }
+  .contentbox-4-m {
+  	margin-left: 40px;
+  }
+  .conten-1 {
+     color: #f60;
+  }
+  .conten-1 span {
+  	font-size: 30px;
+  }
+  .conten-2 {
+  	height: 20px;
+  	width: 20px;
+  	background-image: url(../img/h3.png);
+  	background-position: 150px -203px;
+  }
+  .conten-2n {
+  	height: 20px;
+  	width: 20px;
+  	background-image: url(../img/h3.png);
+  	background-position: 150px -228px;
+  }
+  /*价格表*/
+ 
+  th {
+  	padding-right: 140px;
+  	line-height: 100%;
+  	height: 50px;
+  	font-size: 20px; 
+  	background-color: #f7f6f5;
+  }
+  .item {
+  	padding-top: 30px;
+  	font-size: 18px;
+  }
+  .item input {
+  	height: 32px;
+  	width: 60px;
+  	background-color: #ae1a63;
+  	color: #fff;
+  	border: 1px solid #ae1a63;
+  	border-radius: 3px;
+  }
+  .item input:hover {
+  	background-color: #7f1f59;
+  }
+ .item span  {
+    color: #f60;
+  }
+ /*酒店介绍*/
+ .Lcfx-commentitem {
+ 	margin-top: 50px;
+ 	border: 1px solid #eeeae9;
+ }
+ .check1-1 {
+ 	margin-top: 50px;
+ 	margin-bottom: 50px;
+ 	font-size: 25px;
+ 	border-bottom: 1px solid #eeeae9;
+ }
+ .check1-2 {
+ 	margin-bottom: 20px;
+ 	margin-top: 20px;
+ 	border-bottom: 1px solid #eeeae9;
+ }
+ .label-1 {
+ 	color: #333;
+ 	margin-left: 50px;
+ }
+ .bbbbb {
+ 	margin-top: 50px;
+ 	width: 100%;
+
+ }
+ .bbbbb-1 {
+ 	text-align: center;
+ }
+ .bbbbb-1 li a {
+     color: #7f1f59;
+ }
+ .bbbbb p {
+ 	text-align: center;
+ 	color: #7f1f59;
+ }
+ .contentbox-b {
+ 	width: 190px;
+  	height: 160px;
+  	border: 1px solid white;
+  	border-radius: 5px; 
+  	background-image: url(../img/h4.jpg);
+ }
+ .contentbox-c {
+ 	width: 190px;
+  	height: 160px;
+  	border: 1px solid white;
+  	border-radius: 5px; 
+  	background-image: url(../img/h9.jpg);
+ }
+ /*模态框样式*/
+#example{
+  width: 300px;
+  height: 360px;
+  margin: 0 auto;
+  margin-top:50px;
+  background-color:rgb(88, 13, 50);
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+}
+.modal-body input{
+  color: black;
+}
+.close{
+  color: #fff;
+}
+.user-x{
+  margin-top:8px;
+  width: 100%;
+}
+#name,#tel,#psd,#ondate{
+  width: 161px;
+}

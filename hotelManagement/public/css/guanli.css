@@ -1,0 +1,49 @@
+/*整个区域：*/
+.guanli{
+	width: 960px;
+	height: 300px;
+	margin: 0 auto;
+	border: 5px inset rgba(153, 113, 173, 0.13);
+}
+/*标题居个中：*/
+.h-2{
+	text-align: center;
+}
+/*虚线上部分*/
+.guanli-top{
+	height: 30px;
+	width:900px;
+	line-height: 30px;
+	margin: 0 auto;
+	border-bottom: 1px dashed #781556;
+	color:  #7D2E4F;
+}
+/*钱的那张图片*/
+.qian{
+	border-radius: 5px;
+	margin-top:2%;
+}
+/*下半区左边部分*/
+.guanli-xia-zuo{
+	width: 39%;
+	float: left;
+	height: 100%;
+	text-align: center;
+	color:  #7D2E4F;
+}
+/*下半区右边部分*/
+.guanli-xia-you{
+	width: 60%;
+	float: right;
+	height: 100%;
+	font-size: 16px;
+	color:  #7D2E4F;
+	font-weight: "微软雅黑";
+}
+.gxy-number{
+	height: 30px;
+	width: 100px;
+	margin-left: 150px;
+	text-align: center;
+	border-bottom: 1px dashed brown;
+}

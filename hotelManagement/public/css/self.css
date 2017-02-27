@@ -1,0 +1,19 @@
+.self-a{
+	margin: 0 auto;
+	width: 500px;
+	height: 300px;
+	margin-top:50px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: rgba(102, 187, 175, 0.79);
+}
+.self-a form {
+	display: block;
+	text-align: center;
+}
+.label-txt{
+	width: 100px;
+	height: 20px;
+	border: 1px solid brown;
+	display: inline-block;
+}

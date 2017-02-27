@@ -1,0 +1,434 @@
+/*注册*/
+.userinfo{
+  line-height: 24px;
+  padding-top: 18px;
+  position: relative;
+  right: 40px;
+   opacity: .8;
+}
+.Mheadindex .userinfo a{
+  
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right:5px; 
+      opacity: .8;
+       text-decoration: none;
+}
+/*头部*/
+.Mheadindex {
+    width: 100%;
+    height: 178px;
+    z-index: 200;
+    min-width: 100%;
+    max-width: 100%;
+}
+/*nav导航*/
+.nav .logo{
+    width: 124px;
+    height: 30px;
+    background-position: 0 -79px;
+    font: 0/0 "a";
+}
+.logo{
+	background-image: url(../image/8.png);
+}
+.navlinks{
+	margin-top: 39px;
+	line-height: 32px;
+	color: #fff;
+}
+
+/*列表*/
+.Mheadindex .nav .navlinks a {
+	float: left;
+}
+.Mheadindex .nav .navlinks a {
+     font-size: 22px;
+    outline: 0;
+    padding-bottom: 4px;
+     text-decoration: none;
+}
+.Mheadindex a{
+	color: #fff;
+}
+.Mheadindex li{
+	margin-right: 50px;
+}
+ .nav-l{
+	color: #DDC9B0;
+}
+.Mheadindex .nav .navlinks .navbg {
+    height: 2px;
+    background-color: #e554a5;
+    width: 36px;
+    bottom: 0;
+    left: 0;
+}
+
+/*背景高*/
+.Mbannel{
+	text-align: center;
+	    height: 589px;
+    overflow: hidden;
+    max-width: 100%;
+    min-width:100%;
+}
+/* 旅行生活图标*/
+.Mbannel .bannelitem{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.Mbannel .banneltip{
+	position: absolute;
+}
+.Mbannel .banneltip{
+	z-index: 100;
+	left: 50%;
+	line-height: 1;
+	color: #fff;
+}
+.Mbannel.aboutHZ .banneltip {
+    width: 396px;
+    height: 114px;
+    top: 261px;
+    left: 50%;
+    margin-left: -198px;
+    background-image: url(../image/2.png);
+}
+.Mbannel .bannelopacity{
+	height: 100%;
+}
+.Mbannel .bannelopacity{
+	top: 0;
+	left: 0;
+	opacity: 1.3;
+    
+    background-repeat:no-repeat;
+    background-position: center 0;
+    z-index: 30;
+    width: 100%;
+    max-width: 990px;
+    min-width: 100%;
+    
+}
+/*专享住宿权益*/
+.Mhkhright .title{
+    font-size: 22px;
+    color: #333;
+    font-weight: 400;
+    line-height: 1;
+    padding-top: 50px;
+    padding-bottom: 47px;
+
+}
+.Mhkhright .rights{
+	padding-bottom: 70px;
+	display: inline-block;
+}
+.Mhkhright .rights .item{
+    font-size: 14px;
+    color: #666;
+    width: 68px;
+    float: left;
+    margin-left: 44px;
+}
+.Mhkhright .rights .item .icon{
+	background-image: url(../image/7.png);
+	display: inline-block;
+	width: 49px;
+	height: 43px;
+	margin-bottom: 12px;
+	vertical-align: middle;
+}
+.Mhkhright .rights .item.right-1 .icon {
+  background-position: -246px -125px;
+}
+.Mhkhright .rights .item.right-2 .icon {
+  background-position: -70px -231px;
+}
+.Mhkhright .rights .item.right-3 .icon {
+  background-position: 0px -232px;
+}
+.Mhkhright .rights .item.right-4 .icon {
+  background-position: -246px -57px;
+}
+.Mhkhright .rights .item.right-5 .icon {
+  background-position: -246px 3px;
+}
+.Mhkhright .rights .item.right-6 .icon {
+  background-position: -139px -231px;
+}
+/*关于好实汇*/
+.Mhkhdesc{
+	padding: 20px;
+}
+#Ltac{
+	text-align: center;
+}
+.title{
+	font-size: 30px;
+    color: #333;
+    line-height: 70px;
+    font-weight: 400;
+}
+.desc{
+    color: #b0b0b0;
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 38px;
+}
+.Mhkhright .right{
+	padding-bottom: 70px; 
+}
+.Mhkhright .right .item{
+	font-size: 14px;
+	color: #666;
+	width: 80px;
+}
+
+ /*优惠服务*/
+ .Mhkhservice{
+ 	padding-top: 47px;
+    padding-bottom: 42px;
+    background: #f7f7f7;
+    width: 100%;
+ }
+.Mhkhservice .img{
+	padding-left: 7%;
+}
+.Lfll{
+	float: left;
+}
+.serviceinfo .title{
+	    margin-left: 100px;
+    font-size: 22px;
+    line-height: 114px;
+    color: #333;
+}
+.servicalist{
+	margin-left: 38px;
+    line-height: 26px;
+    width: 420px;
+}
+.Lcfx{
+	zoom:1;
+}
+.servicalist .item{
+	width: 140px;
+	margin-bottom: 25px;
+}
+.servicalist .icon{
+	    width: 27px;
+    height: 26px;
+    vertical-align: middle;
+    margin-right: 9px;
+}
+.servicalist .icon{
+	background-image: url(../image/7.png);
+	display: inline-block;
+}
+.service-1 .icon{
+	    background-position: -362px -164px;
+}
+.labell{
+   font-size: 14px;
+    color: #666;
+    vertical-align: middle;
+}
+.service-2 .icon{
+	   background-position: -315px -210px;
+}
+.service-3 .icon{
+	    background-position: -362px -210px;
+}
+.service-4 .icon{
+	    background-position: -147px -124px;
+}
+.service-5 .icon{
+	 background-position: -194px -124px;
+}
+.service-6 .icon{
+	 background-position: -315px -164px;
+}
+/*城市*/
+.Mhkhhotels{
+	height: 496px;
+	color: #fff;
+	width: 100%;
+	max-width:100%;
+}
+.CscreenBanner{
+	position: relative;
+}
+.CscreenBanner .screenBannerBg{
+	    -moz-background-size: cover;
+    background-size: cover;
+    z-index: 1;
+   background-repeat: no-repeat;
+}
+.CscreenBanner .screenBannerBg, .CscreenBanner .screenBannerOpa {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.CscreenBanner .screenBannerOpa{
+	    z-index: 2;
+    filter: alpha(opacity=20);
+    opacity: 1.2;
+    background-color:rgba(0, 0, 0, 0.13);
+   position: absolute;
+}
+.Mhkhhotels .container{
+	z-index: 3;
+}
+.CscreenBanner .screenBannerCont {
+    z-index: 3;
+    position: relative;
+}
+.Mhkhhotels .desc{
+	padding-top: 130px;
+	padding-bottom: 55px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #fff;
+}
+.Mhkhhotels .desc span{
+	font-size: 24px;
+	line-height: 24px;
+	letter-spacing: .1em;
+}
+.hkhnumbers .citynumber,.internalnumber,.foreignnumber{
+	background-image: url(../image/7.png);
+	    padding-top: 30px;
+    padding-bottom: 28px;
+    width: 102px;
+    line-height: 12px;
+    font-size: 12px;
+    background-position: -124px 0;
+    display: inline-block;
+        margin-right: 50px;
+}
+.hkhnumbers strong{
+	background-image: url(../image/7.png);
+	width: 80px;
+    height: 21px;
+    text-indent: -9999em;
+    margin-bottom: 11px;
+     display: inline-block;
+}
+.hkhnumbers .citynumber strong{
+	background-position: -113px -179px;
+}
+.hkhnumbers .internalnumber strong{
+	background-position: -315px -82px;
+}
+.hkhnumbers .foreignnumber strong{
+	background-position: -315px -41px
+}
+/*好实汇品牌列*/
+.Mhkhbrands{
+	padding-bottom: 171px;
+}
+.Mhkhbrands .brandlist{
+	width: 964px;
+	padding-top: 90px;
+	padding-bottom: 59px;
+	height: 0;
+	margin:auto;
+	clear:both;
+}
+.Mhkhbrands .branddesc{
+	margin-top: 90px;
+	margin-bottom: 72px;
+	font-size: 14px;
+	line-height: 22px;
+	color: #666;
+}
+/*预订框*/
+.Mhkhbrands.brandbtns{
+	text-align: center;
+}
+.Mhkhbrands .cbtn{
+      font-size: 18px;
+      border: 1px solid #d0afc0;
+      border-radius: 4px;
+      width: 225px;
+      height: 57px;
+      line-height: 50px;
+      display: inline-block;
+      margin-left:5px;
+      color: #82195c;
+       text-decoration: none;
+}
+.Mhkhbrands .cbtn3{
+	background: #82195c;
+	color: #fff;
+	
+}
+.Mhkhbrands .cbtn2:hover{
+	color: #fff;
+	background-color: #82195c;
+	 
+
+}
+
+.Mhkhbrands .cbtn3:hover{
+	background:#61013b;
+	
+}
+.cbtnt3{
+	background-color:#fff;
+	color:#82195c;
+	 
+}
+/*尾部*/
+footer{
+	display: block;
+}
+.Mfoot{
+ margin-top: -91px;
+ height: 90px;
+ border-top: 1px solid #e6e6e6;
+ min-width: 990px;
+ background-color:#faf8f9;
+ position: relative;
+}
+.Mfoot .inner{
+   color: #602750;
+   line-height: 20px;
+}
+.Lpb20{
+	padding-bottom: 20px;
+}
+.Lpt20{
+    padding-top: 20px;
+}
+.Mfoot .links{
+	font-size: 13px;
+    font-weight: 700;
+
+}
+.Mfoot .links a {
+    color: #602750;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+     text-decoration: none;
+}
+.Lmt10 {
+    margin-top: 10px;
+}
+p {
+    margin: 0 0 10px;
+}
+.Mfoot .links a:hover{
+    color: #dc2254;
+}

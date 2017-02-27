@@ -1,0 +1,47 @@
+html {
+	height: 100%;
+ }
+ #search {
+	padding-right:0;
+}
+.div_thead {
+	width: 100%;
+    background: url(../img/2.jpg);
+    background-position-y: -200px;
+    background-size: cover;
+    margin-top: 5px;
+    border-radius: 4px;
+}
+.div_thead tr {
+    color: white;
+}
+.div_thead th {
+	border:none !important;
+	height:40px;
+	text-align: center;
+	width: 20%;
+}
+#tbody td {
+	width: 20%;
+}
+#table {
+	margin-bottom:0;
+}
+.input_css {
+	width: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+#tbody td {
+	vertical-align: middle;
+	padding-top: 4px;
+    padding-bottom: 4px;
+}
+.btn_color {
+	background-color: rgba(91,197,95,0.8)!important;
+	color:#fff;
+}
+.deji_pic {
+	height:470px;
+	background:url(../img/001.jpeg);
+}

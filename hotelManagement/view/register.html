@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>登录页面</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/register.css">
+
+	<script src="jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script src="jquery.validate-1.13.1.js" type="text/javascript"></script>
+	<script src="bootstrap.min.js" type="text/javascript"></script>
+	<script src="register.js" type="text/javascript"></script>
+</head>
+<body>
+	<div class = "container-fluid text-center hotel">
+		<div class = "reg_all">
+			<h1>华住酒店管理系统</h1>
+			<div class = "reg_form">
+			<!-- #register_form 为表单的id -->
+			<!-- #user 为账户的id-->
+			<!-- #pwd 密码的id -->
+			<!-- #btn 提交按钮的id -->
+			<!-- #msg 错误信息提示的id -->
+				<form class = "form-horizontal form-padd" id = "register_form">
+					<h2>后台登录</h2>
+					<div class="form-group">
+						<div class = "col-xs-8 col-xs-offset-2">
+							<input type="text" class="form-control" id="user" name = "user" placeholder="管理员账户">
+						</div>
+				  	</div>
+				  	<div class="form-group">
+				  		<div class = "col-xs-8 col-xs-offset-2">
+				  			<input type="password" class="form-control" id="psw" name = "pwd" placeholder="密码">
+				  			<div id="msg" class="error hidden text-center">账号或密码错误...</div>
+				  		</div>
+				  	</div>
+				  	<div class="form-group">
+				  		<div class = "col-xs-4 col-xs-offset-4">
+				  			<input type="submit" class="form-control btn-primary" id="btn" value = "登录">
+				  		</div>
+				  	</div>
+				 </form>
+			</div>
+		</div>
+	</div>
+	<div class = "fish">
+		O(∩_∩)O~修改成功
+	</div>
+</body>
+</html>

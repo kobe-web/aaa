@@ -1,0 +1,193 @@
+html,body {
+	height: 100%;
+	color:black;
+	font-family: "微软雅黑";
+	padding: 0;
+	margin: 0;
+}
+/*顶部区域；*/
+.first{
+	width: 100%;
+	height: 60px;
+	margin: 5px 0;
+}
+.first ul {
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+.first li{
+	float: left;
+	list-style: none;
+	padding: 0;
+	width: 180px;
+	height: 60px;
+	/*margin-top: -10px;*/
+}
+/*酒店图标区：*/
+.jiudian{
+	float: left;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-left:50px;
+	background:url(../img/tubiao.png)no-repeat;
+	background-size: cover;
+}
+/*右边电话图片：*/
+.tel{
+	float: right;
+	margin-right: 0px;
+	    position: relative;
+    top: 6px;
+}
+/*棕色导航区：*/
+.navbar{
+	    font-family: '宋体';
+	background-color: #584942;
+	padding-bottom: 0;
+	margin-bottom: 0px;
+	border-radius: 0px;
+	background: url(../img/navbg2.png)no-repeat;
+	background-size: cover;
+}
+.navbar a {
+	color: #E2F1FF;
+	    font-size: 15px;
+}
+/*棕色导航区右边文字：*/
+.navbar-brand{
+	font-size: 15px;
+	cursor: pointer;
+	color: #fff;
+}
+/*棕色导航区下边的欢迎文字：*/
+.dao{
+    text-align: center;
+    margin: 8px 0;
+	color:#66114B;
+}
+/*导航下面的整个div*/
+.content {
+	padding-top: 0px;
+	height: 400px;
+	display: flex;
+	overflow: hidden;
+}
+/*content的左边导航区*/
+#sidbar {
+	width: 15%;
+	height: 100%;
+	border-right:1px solid #eee;
+	box-shadow:2px 0 2px #9e9e9e;
+	background-color: #fff;
+	    font-family: '宋体';
+}
+/*左边导航区的上半部分*/
+.top-member {
+	height: 106px;
+	border-bottom: 1px solid #9e9e9e;
+	text-align: center;
+	/*background: url(../img/tubiao.png) no-repeat;*/
+	/*background-size: cover;*/
+}
+.top-member img {
+	height: 80px;
+	width: 80px;
+	margin-top:0px;
+	border-radius: 50%;
+}
+/*左边导航区的文字部分*/
+#sidbar span.glyphicon {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/*左导航区的class集合*/
+#sidbar .list-group-item {
+	padding:0;
+	background-color: rgba(121, 8, 245, 0.26);
+}
+#sidbar .list-group-item a {
+	display: inline-block;
+	width: 100%;
+	padding: 10px 15px;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	color: #7D2E4F;
+}
+#sidbar .list-group-item:hover {
+	cursor: pointer;
+	color: #fff;
+    background-color:rgba(176, 116, 183, 0.7);
+}
+/*正式内容区；*/
+#cont-f {
+	float: left;
+	height: 100%;
+	flex:1; 
+	background-color: #ffffff;
+	overflow: auto;
+	}
+#sidbar .list-group-item.active {
+	color: #fff;
+    background-color: rgba(176, 116, 183, 0.7);
+}
+
+/*正式内容区*/
+/*#cont-f {
+	float: left;
+	height: 100%;
+	flex:1; 
+	background-color: #ffffff;
+	overflow: auto;
+	}
+#sidbar .list-group-item.active {
+	color: #fff;
+    background-color: #30a5ff;
+}
+
+#sidbar .list-group-item.active a {
+	color: #fff;
+}
+
+.geren{
+	width: 960px;
+	height: 300px;
+	border:8px inset #F3BA66;
+	margin: 0 auto;
+}
+.geren-shang{
+	height: 30px;
+	width:900px;
+	line-height: 30px;
+	margin: 0 auto;
+	border-bottom: 2px dashed #F3BA66;
+}
+.geren-xia{
+	height: 270px;
+	width: 900px;
+	margin: 8px auto;
+}
+.geren-shang span a{
+	float: right;
+	text-decoration: none;
+}
+.ka{
+	float: left;
+	width: 50%;
+	margin-left: 30px;
+	height: 270px;
+}
+.ka-y{
+	height: 36px;
+	font-weight: bolder;
+}
+.ka-y div{
+	float: left;
+	height: 36px;
+	width: 150px;
+}
+.pp{
+	margin-left: 42px;
+	margin-top:10px;
+	color: #1EA839;
+}*/

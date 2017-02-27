@@ -1,0 +1,72 @@
+body{
+	text-align: center;
+	font-family: "微软雅黑";
+	background: url(../img/10.jpg) no-repeat;
+	background-size:cover;
+}
+/*整个div的样式*/
+#box{
+	    width: 300px;
+    height: 280px;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+/*表单的样式*/
+#biao{
+	background-color: rgba(48, 58, 169, 0.3);
+	width: 300px;
+	margin: 0 auto;
+	border-radius: 10px;
+	    padding: 40px;
+}
+/*五个输入框的样式*/
+#username,#pwd{
+	height: 30px;
+	width:222px;
+	color: #fff;
+	border-radius: 5px;
+	border: none;
+	background-color: rgba(86, 126, 197, 0.58);;
+}
+/*验证码输入框样式*/
+#yanzheng{
+	width: 80px;
+	height: 30px;
+	margin-right: 24px;
+	color: #8F29C3;
+	font-weight: bolder;
+	text-align: center;
+}
+/*验证码所在div样式：*/
+#yanzhengma{
+	width: 80px;
+	height: 40px;
+	float: right;
+	position: relative;
+	top:-5px;
+	line-height: 40px;
+	font-size: 20px;
+	color:brown;
+}
+/*错误提示的样式*/
+.error{
+	color: rgba(234, 30, 30, 0.85);
+}
+/*五个输入框所在的div的样式*/
+.box1{
+	height: 50px;
+}
+/*注册提交按钮样式*/
+#btn{
+	background-color: rgba(105, 152, 171, 0.53);
+	border-radius: 5px;
+	width: 100px;
+    height: 40px;
+    border: 1px solid;
+}

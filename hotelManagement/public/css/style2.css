@@ -1,0 +1,169 @@
+
+/*3D区域*/
+.pic_img:hover .overlay {
+    opacity: 1;
+}
+.pic_img:hover .s1 {
+    /*过度效果 Safari and Chrome*/
+    -webkit-transition-delay: 200ms;
+    /*火狐*/
+    -moz-transition-delay: 200ms;
+    /*Opera*/
+    -o-transition-delay: 200ms;
+    /*internet*/
+    -ms-transition-delay: 200ms;
+    transition-delay: 200ms;
+    /*3D旋转*/
+    -webkit-transform: rotate3d(0, 1, 0, -8deg);
+    -moz-transform: rotate3d(0, 1, 0, -8deg);
+    -o-transform: rotate3d(0, 1, 0, -8deg);
+    -ms-transform: rotate3d(0, 1, 0, -8deg);
+    transform: rotate3d(0, 1, 0, -8deg);
+}
+
+
+*.pic_img:hover .s2 {
+    /*过度效果*/
+    -webkit-transition-delay: 150ms;
+    -moz-transition-delay: 150ms;
+    -o-transition-delay: 150ms;
+    -ms-transition-delay: 150ms;
+    transition-delay: 150ms;
+    /*3D转换 3D旋转 圆共度*/
+    -webkit-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -10deg);
+    -moz-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -10deg);
+    -o-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -10deg);
+    -ms-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -10deg);
+    transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -10deg);
+}
+
+.pic_img:hover .s3 {
+    /*过度效果*/
+    -webkit-transition-delay: 100ms;
+    -moz-transition-delay: 100ms;
+    -o-transition-delay: 100ms;
+    -ms-transition-delay: 100ms;
+    transition-delay: 100ms;
+    /*3D转换 3D旋转*/
+    -webkit-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -16deg);
+    -moz-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -16deg);
+    -o-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -16deg);
+    -ms-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -16deg);
+    transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -16deg);
+}
+
+.pic_img:hover .s4 {
+    /*过度效果*/
+    -webkit-transition-delay: 50ms;
+    -moz-transition-delay: 50ms;
+    -o-transition-delay: 50ms;
+    -ms-transition-delay: 50ms;
+    transition-delay: 50ms;
+    /*3D转换和旋转 圆共度*/
+    -webkit-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -30deg);
+    -moz-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -30deg);
+    -o-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -30deg);
+    -ms-transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -30deg);
+    transform: translate3d(59px, 0, 0) rotate3d(0, 1, 0, -30deg);
+}
+
+.pic_img:hover .s5 {
+    /*3D转换和旋转*/
+    -webkit-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+    -moz-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+    -o-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+    -ms-transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+    transform: translate3d(60px, 0, 0) rotate3d(0, 1, 0, -42deg);
+}
+
+.pic_img .s4 > .overlay {
+    /*添加背景 向右线性渐变*/
+    background: -moz-linear-gradient(right, rgba(226, 194, 34, 0) 0%, rgba(216, 111, 21, 0) 100%);
+    background: -webkit-linear-gradient(right, rgba(226, 194, 34, 0) 0%, rgba(216, 111, 21, 0) 100%);
+    background: -o-linear-gradient(right, rgba(226, 194, 34, 0) 0%, rgba(216, 111, 21, 0) 100%);
+    background: -ms-linear-gradient(right, rgba(226, 194, 34, 0) 0%, rgba(216, 111, 21, 0) 100%);
+    background: linear-gradient(right, rgba(226, 194, 34, 0) 0%, rgba(216, 111, 21, 0) 100%);
+}
+
+.pic_img .s5 > .overlay {
+    /*向左线性渐变*/
+    background: -moz-linear-gradient(left, rgba(226, 194, 34, 0) 0%, rgba(32, 156, 204, 0.78) 100%);
+    background: -webkit-linear-gradient(left, rgba(226, 194, 34, 0) 0%, rgba(32, 156, 204, 0.78) 100%);
+    background: -o-linear-gradient(left, rgba(226, 194, 34, 0) 0%, rgba(32, 156, 204, 0.78) 100%);
+    background: -ms-linear-gradient(left, rgba(226, 194, 34, 0) 0%, rgba(32, 156, 204, 0.78) 100%);
+    background: linear-gradient(left, rgba(226, 194, 34, 0) 0%, rgba(32, 156, 204, 0.78) 100%);
+}
+
+.pic_img div.Picimg-back {
+    /*背景色  向左线性渐变*/
+    background:rgba(226, 194, 34, 0)0%;
+    background: -moz-linear-gradient(left,rgba(2226, 194, 34, 0)0%,rgba(189, 71, 15, 0)100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(226, 194, 34, 0)), color-stop(100%,rgba(189, 71, 15, 0.67)));
+    background: -webkit-linear-gradient(left,rgba(226, 194, 34, 0)0%,rgba(189, 71, 15, 0)100%);
+    background: -o-linear-gradient(left,rgba(226, 194, 34, 0)0%,rgba(189, 71, 15, 0)100%);
+    background: -ms-linear-gradient(left,rgba(226, 194, 34, 0)0%,rgba(189, 71, 15, 0)100%);
+    background: linear-gradient(left,rgba(226, 194, 34, 0)0%,rgba(189, 71, 15, 0)100%);
+}
+.pic_img .s2, 
+.pic_img .s3, 
+.pic_img .s4, 
+.pic_img .s5 {
+    /*定义3D*/
+    -webkit-transform: translate3d(60px,0,0);
+    -moz-transform: translate3d(60px,0,0);
+    -o-transform: translate3d(60px,0,0);
+    -ms-transform: translate3d(60px,0,0);
+    transform: translate3d(60px,0,0);
+}
+.pic_img .s1 {
+    /*定位*/
+    background-position: 0px 0px;
+}
+.pic_img .s2 {
+    background-position: -50px 0px;
+}
+.pic_img .s3 {
+    background-position: -110px 0px;
+}
+.pic_img .s4 {
+    background-position: -170px 0px;
+}
+.pic_img .s5 {
+    background-position: -230px 0px;
+}
+
+.pic_img .slice{
+    width: 60px;
+    height: 100%;
+    z-index: 100;
+    /*保留其 3D 位置 使被转换的子元素保留其 3D 转换：*/
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    /* 旋转元素的基点位置       rotate旋转画布的坐标系统*/
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+    /*过渡+定义3D 慢速开始和结束*/
+    -webkit-transition: -webkit-transform 150ms ease-in-out;
+    -moz-transition: -moz-transform 150ms ease-in-out;
+    -o-transition: -o-transform 150ms ease-in-out;
+    -ms-transition: -ms-transform 150ms ease-in-out;
+    transition: transform 150ms ease-in-out;        
+}
+.pic_img .overlay {
+    width: 60px;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    /*不透明话过度效果*/
+    -webkit-transition: opacity 150ms ease-in-out;
+    -moz-transition: opacity 150ms ease-in-out;
+    -o-transition: opacity 150ms ease-in-out;
+    -ms-transition: opacity 150ms ease-in-out;
+    transition: opacity 150ms ease-in-out;
+}

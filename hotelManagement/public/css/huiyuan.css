@@ -1,0 +1,18 @@
+body{
+	font-family: "微软雅黑";
+}
+.nav-h{
+	text-align:center;
+	height: 76px;
+	color: white;
+	background: url(../img/bg.jpg) no-repeat;
+	background-size: cover;
+}
+.navbar a {
+	color:white;
+	line-height: 76px;
+	font-size: 20px;
+}
+.ks {
+	height: 100px;
+}
