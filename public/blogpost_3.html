@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <title>Brave Software | Brave的开发人员输入的付款规格</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta property="og:title" content="Brave Software" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://brave.com/" />
+    <meta property="og:image" content="https://brave.com/assets/img/bg/lion_blackBG.jpg"/>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- CSS Global Compulsory -->
+    <link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/one.style.css">
+
+    <!-- CSS Footer -->
+    <link rel="stylesheet" href="/assets/css/footers/footer-v5.css">
+    <link rel="stylesheet" href="/assets/css/footers/footer-v1.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="/assets/plugins/animate.css">
+    <link rel="stylesheet" href="/assets/plugins/line-icons/line-icons.css">
+    <link rel="stylesheet" href="/assets/plugins/font-awesome/css/font-awesome.min.css">
+
+    <!-- CSS Customization -->
+    <link rel="stylesheet" href="/assets/css/custom.css">
+
+    <!-- Extra per-page stylesheets -->
+    
+</head>
+
+<!--
+The #page-top ID is part of the scrolling feature.
+The data-spy and data-target are part of the built-in Bootstrap scrollspy function.
+-->
+<body id="body" data-spy="scroll" data-target=".one-page-header">
+    <!--=== Header ===-->
+    <nav class="one-page-header navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="menu-container">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="logo" href="/">
+                    <div id="brave-logo" class="pull-left">Brave</div>
+                </a>
+
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="fullsize-menu" class="collapse navbar-collapse navbar-ex1-collapse pull-right">
+                <div class="menu-container">
+                        <ul class="nav navbar-nav brave-nav" style="">
+
+                        <li class="home">
+                            <a href="index.html#faster">更快</a>
+                        </li>
+                        <li>
+                            <a href="index.html#safer">更安全</a>
+                        </li>
+
+                         <li>
+                            <a href="index.html#devs">开发商</a>
+                        </li>
+
+                        <li>
+                            <a href="publishers.html">发布商</a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">关于</a>
+                        </li>
+
+                        <li>
+                            <a href="https://blog.brave.com/">博客</a>
+                        </li>
+
+                        <li class="download">
+                            <a href="downloads.html">下载</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <!-- /.navbar-collapse -->
+            </div>
+
+        </div>
+        <!-- /.container -->
+    </nav>
+    <!--=== End Header ===-->
+
+    <!--=== Main content ===-->
+    
+
+    <!--=== Content Part ===-->
+    <!-- Begin Content -->
+   <div class="page container content-md">
+        <div class="row">
+            <div class="col-sm-5 sm-margin-bottom-20">
+                <p><img class="img-responsive" src="assets/img/team/brendan_couch.jpg" alt="Brendan Eich"></p>
+                <hr>
+                <div class="news">
+                    <ul class="list-inline posted-info">
+                        <li>
+                            <a href="https://blog.brave.com/bebraveday/">
+                                <strong>2016年4月8日</strong><br>
+                                #BeBraveDay<br>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://blog.brave.com/braves-response-to-the-naa-a-better-deal-for-publishers/">
+                                <strong>2016年4月7日</strong><br>
+                                Brave对于NAA的回应:对发布商的更好的交易<br>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://blog.brave.com/braves-payment-spec-out-for-developer-input/">
+                                <strong>2016年3月31日</strong><br>
+                                Brave的开发商输入的付款规格<br>
+                                由Marshall T. Rose 和 Brendan Eich提出<br>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://blog.brave.com/how-brave-works-for-you/">
+                                <strong>2016年1月27日</strong><br>
+                                Brave 是如何为你服务的<br>
+                                由Brendan Eich提出<br>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://blog.brave.com/how-to-fix-the-web/">
+                                <strong>2016年1月20日</strong><br>
+                                如何让网站变得更好<br>
+                                由Brendan Eich提出<br>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-7 news-v3">
+                <div class="news-v3-in-sm no-padding">
+                    <ul class="list-inline posted-info">
+                        <li>Marshall T. Rose 和 Brendan Eich</li>
+                        <li>Brave Software</li>
+                        <li>发布日期：2016年3月31</li>
+                    </ul>
+                    <h2>Brave的开发商输入的付款规格</h2>
+
+<p>在Brave Software，我们喜欢浏览器。我们喜欢使用它们，我们喜欢编码他们。作为Web的用户界面，我们知道浏览器对互联网的重要性。而且 - 如果你一直在关注brave软件公司的信息 - 你知道我们非常关注匿名，隐私和安全。特别是，广告跟踪和恶意广告已成为现代威胁。即使有些人不关心被跟踪，他们也关心恶意软件通过广告传送到他们的计算机或移动设备。此外，整个广告网络基础设施构成对网络资源的低延迟和有效使用的攻击：许多重定向增加了网络流量，并且使得浏览器难以快速有效地呈现页面，特别是在移动设备上。</p>
+
+<p>在 <a href="https://brave.com/blogpost_1.html">前一篇</a> <a href="https://brave.com/blogpost_2.html">和之前2篇</a> 文章中, 我们讨论了更好的广告投放方式：匿名和非公开广告，不涉及跟踪的广告。我们知道和尊重互联网上的内容在很大程度上是广告客户支持的，所以我们的目标不是删除广告，而是让你重新控制。我们的架构要做到这一点是 - 毫不奇怪 - 传统的浏览器广告模型的颠倒。传统模式将浏览器视为“沉默的合作伙伴”。当您浏览不同的网站时，由多个第三方跟踪您。这些用户在私有云中构建复杂（但令人烦恼的）不完整的配置文件，然后某些方（通常与跟踪器不同）根据这些配置文件提供广告。</p>
+
+<p>我们的模型是不同的: 我们称之为反云。我们当然不是反对云计算本身。但是，我们非常关心我们的用户数据进入云中的情况以及云对该信息的影响。因此，在Brave的反云模型中，您的所有详细信息仅保留在浏览器中.关于这个谈论到此为止. 我们的 <a href="https://github.com/brave/browser-laptop/wiki/Brave-Development-Timeline">流程图</a> 包含了在您的设备上加密和备份此信息，但我们的服务器不会清楚地看到您的数据。</p>
+
+<p>当检测到非入侵广告位时，brave浏览器会与勇敢广告网络联系，并请求广告填充这些广告位。brave浏览器将浏览历史映射到一组固定的一般“兴趣”类别。这些类别的子集基于当前页面的上下文和可能的一些“诱饵”类别与类别组合。不公开其他信息，并且不使用唯一或持久标识符。brave的浏览器随后从勇敢广告网络返回的列表中选择适当的广告进行展示，并忽略其余部分或将其缓存以备后用。</p>
+
+<p>为了向我们的合作伙伴提供汇总报告，Brave Software将在云中运营服务，但这些服务的设计首先的特点就是匿名性，隐私性和安全性。在我们设计这些匿名服务时，我们将在实施这些服务之前会对其进行博客介绍，以收集来自世界各地感兴趣的专家的评论。</p>
+
+<p>今天，我们正在讨论brave的账户，一个基于比特币的小额支付系统的用户和发布商。 作为我们的开源方法的一部分, 我们与开发人员共享 <a href="https://github.com/brave/ledger/tree/master/documentation/Ledger-Principles.md">规范</a> 以供评论和讨论。代码当前正在编写，我们希望根据反馈修改代码。目前，我们计划在5月下旬的1.0开发版中让所有内容都运行（并作为开放源代码发布）。
+</p>
+
+<p>让我们从基础开始。brave浏览器可在<em>广告替换模式</em>或<em>无广告模式</em>下运行<BR>
+
+    <p><img class="img-responsive" src="assets/img/contents/Brave_laptopmenu_adreplace.png" alt="" width="460px"></p>
+
+    <p><img class="img-responsive" src="assets/img/contents/Brave_laptopmenu_adfree.png" alt="" width="460px"></p>
+
+    (正如 <a href="https://brave.com/blogpost_2.html">前一篇文章</a>所提, Brave用户也可以选择仅在需要时阻止广告和跟踪代码;或者在测试时禁用所有阻止;但默认设置在大规模时很重要，因为大多数用户不会更改它们。）如果浏览体验是无广告的，则第三方广告不由勇敢浏览器显示; 否则，在广告替换模式下，“brave浏览器”会使用更快，更安全的广告替换候选第三方广告主要的发布者内容而不是之前。我们放置的广告比我们在此模式中屏蔽的广告少。</p>
+
+<p>每种模式都有不同的经济模式和一些潜规则：
+<ul>
+<li>对于无广告模式的网站，您可以选择通过从您的用户电子钱包（通过广告替换模式网站的收入分成（见下文））加上您自己的资金来支付网站，如果您想添加任何[更新：我们注意到这句话中的原始语言导致混乱，所以澄清的文本重申一个事实，我们不需要付款阻止广告]。一旦BTC转移发生，勇敢浏览器通过加权平均值发送您的前10个网站的匿名但是负责的摘要（例如，如果你去“wsj.com”两倍的“espn.com”，然后重量对于第一站点是第二站点的两倍）。每一天，勇敢的记者都会记住付款和网站的观看次数，并“掌握数字”。支付金额（减去名义处理费，例如5％）除以权重的总和，以便确定支付比率，然后通过将该比率乘以权重来计算对每个发布者的支付。例如，如果来自无广告用户的总收入为1000.00BTC，那么Brave软件将收到50.00BTC，一个接收10％的总观看次数的网站将获得95.00BTC，一个网站接收总观看次数的5％接收47.50BTC，接收总观看量1％的网站将获得9.50BTC，等等。</li><BR>
+
+<li>brave浏览器将有一个首选项面板，让您决定应支持哪些网站。如果你愿意的话，你甚至可以把重量。例如，您可能更愿意平均支付您的前10个网站，或者您可能更愿意排除特定网站或两个网站，依此类推。（我们仍在考虑最直观的方法让您控制此问题，因此设计细节尚未决定。）</li>
+
+                    <p><a href="assets/img/contents/Brave_topsites_ledger.png" target="_blank"> <img class="img-responsive" src="assets/img/contents/Brave_topsites_ledger.png" alt=""></a></p>
+
+<li>对于广告替换模式，一旦广告活动进行对帐并且我们的广告合作伙伴付款给我们，来自广告替换用户的总观看次数就会聚合为发布商的加权列表。从总付款中，我们的广告匹配合作伙伴获得了一份（15％）的份额，我们占用了我们的份额（15％），我们为广告替换用户预留了总付款的用户收入分成（15％），剩余金额分配给发布商（例如，55％）。然后使用加权比法计算对每个发布者的付款。为了增强隐私权，向每个广告替换用户付款的计算方式与向该用户投放的实际广告展示次数无关 - Brave Software不会跟踪向哪些用户投放了哪些展示次数。</li><BR>
+
+<li>那么，当您处于广告替换模式时会发生什么？Brave Ledger将用户收入分成转移到您的勇敢的钱包！您有两个选择：您可以“捐赠”资金到您最喜爱的网站（这是自动默认）; 或者你可以转移资金到另一个比特币钱包.但是，为了从系统中 <a href="https://en.wikipedia.org/wiki/Money_laundering#Enforcement">获利或者洗钱</a> (AML) 以及 <a href="https://en.wikipedia.org/wiki/Know_your_customer">了解你的客户</a> (KYC) 规定要求勇敢的软件验证您的身份。如果您选择验证自己的身份，则需要显示对电话号码和电子邮件地址的控制权。即使如此，Brave Software也无法将您的浏览历史记录与您的钱包付款相关联。</li><BR>
+
+<li>发布商（您访问的网站）还必须验证其钱包以获得付款，而且由于AML和KYC规定，验证的难度会更严格，但与发布商的规模成正比。无广告模式的一个好的功能是会计是完全透明的 - 每个人（用户和发布商）可以检查BTC区块链，并查看到和从勇敢的软件托管帐户的转账。（使用比特币作为勇敢的账本有很多奇妙的优势，但这是一个未来的博客...我们承诺！）还要注意，因为大多数用户不改变默认值，大多数用户默认支付他们的顶部网站，所以通过系统向发布商的总共份额是广告收入的70％。</li>
+</ul>
+</p>
+
+<p>虽然我们讨论的是无广告或广告替换模式，这有点简化：偏好面板还将允许您指定某些网站为无广告，其他一切为广告替换。I事实上，如上所述和 <a href="https://brave.com/blogpost_2.html">上一篇文章</a>所述, 你可以“免费的免费” - 虽然我们认为内容应该支付，我们也意识到，并不是每个人都喜欢这个观点（虽然我们认为我们的观点是多数意见）。</p>
+
+<p><a href="assets/img/contents/Brave_privacy_settingspanel.png" target="_blank"> <img class="img-responsive" src="assets/img/contents/Brave_privacy_settingspanel.png" alt="" width="460px"></a></p>
+
+<p>这一点上，你可能想知道匿名但是责任的部分是如何工作的。你必须阅读所有细节上的 <a href="https://github.com/brave/ledger/tree/master/documentation/Ledger-Principles.md">规范</a> 在这里是缩略图 the Brave Ledger使用 <a href="https://anonize.org/assets/technology.html">Anonize</a>, 它使Brave 浏览器 支持用户的真实行为 在没有链接，浏览器和钱包支付的情况下 通过 <a href="https://en.wikipedia.org/wiki/Zero-knowledge_proof">Zero Knowledge Proofs</a>的魔力!</p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About Section -->
+
+
+    <!--=== End main content ===-->
+
+<!--=== Footer v1 ===-->
+<section id="contact">
+    <div id="footer-v1" class="footer-v1">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+
+                    <!-- About -->
+                    <div id="footer-about" class="col-md-3 md-margin-bottom-40">
+                        <p>
+                            <br><br>
+                            <a href="index.html">
+                                <img id="logo-footer" class="footer-logo" src="/assets/img/brave_logo_icon_grey.png" alt="">
+                            </a>
+                        </p>
+                        <p>
+                            新的brave浏览器阻止了广告和跟踪,防止减慢你的带宽,侵犯你的隐私。现在,勇敢让你根据你访问的网站,自动为你最喜欢的开发商做贡献。
+                        </p>
+                    </div>
+                    <!-- End About -->
+
+                    <!-- Link List -->
+                    <nav id="footer-linklist" class="col-md-3 md-margin-bottom-40">
+                        <div class="headline">
+                            <h2>相关链接</h2>
+                        </div>
+                        <div>
+                            <a href="/about.html#press">Press</a>
+                        </div>
+                        <div>
+                            <a href="/publishers.html">开发商</a>
+                        </div>
+                        <div>
+                            <a href="/FAQ.html">常见问题</a>
+                        </div>
+                        <div>
+                            <a href="https://blog.brave.com">博客</a>
+                        </div>
+                        <div>
+                            <a href="/brave_youth_program.html">初级计划</a>
+                        </div>
+                        <div>
+                            <a href="/about.html">关于我们</a>
+                        </div>
+
+                        <div>
+                            <a href="https://community.brave.com">赞助支持</a>
+                        </div>
+                         <div>
+                            <a href="/about.html#careers">关于工作</a>
+                        </div>
+
+                    </nav>
+                    <!-- End Link List -->
+
+                    <!-- Newsletter -->
+                    <div id="newsletter-form" class="col-md-3 md-margin-bottom-40">
+                        <div class="headline">
+                            <h2>Newsletter</h2>
+                        </div>
+                        <form id="formNewsletterSubscription" class="form-vertical" onsubmit="return false">
+                          <input name="call" value="newsletter" type="hidden">
+                          <div class="form-group">
+                              <input name="newsletteremail"
+                              type="email" class="form-textbox validate[Email]"
+                              id="newsletteremail" placeholder="Email" aria-required="true"
+                              >
+                          </div>
+
+                          <div class="form-group">
+                              <button class="btn-u btn-u-black ls-s-1" id="formNewsletterSubscriptionSubmit">保持联系</button>
+                          </div>
+                          <input value="cb26574db7" name="MC_LIST_ID" type="hidden">
+                        </form>
+                    </div>
+
+                    <!-- End Newsletter -->
+
+                    <!-- Address -->
+
+                    <div id="footer-address" class="col-md-3 md-margin-bottom-40">
+                        <div class="headline">
+                            <h2>联系我们</h2>
+                        </div>
+                        <address class="md-margin-bottom-40">
+                            1161 Mission Street, #401<br>
+                            San Francisco CA 94103-1550<br>
+                            US<br><br>
+                            公众联系: <a href="mailto:press@brave.com">press@brave.com</a><br>
+                            商业联系： <a href="mailto:bizdev@brave.com">bizdev@brave.com</a><br>
+                            资助支持: <a href="https://community.brave.com">community.brave.com</a><br>
+                            推特联系: <a href="https://twitter.com/brave" target="_blank">twitter.com/brave</a>
+                        </address>
+                    </div>
+                    <!-- End Address -->
+
+                </div>
+            </div>
+        </div>
+        <!--/footer-->
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <p>
+                            &copy;2017年brave软件公司保留所有权利
+                            <a href="/privacy.html">隐私</a>&nbsp;|&nbsp;<a href="/terms_of_use.html">服务条款</a>
+                        </p>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="col-md-4">
+                        <ul class="footer-socials list-inline">
+                            <li>
+                                <a href="https://www.facebook.com/BraveSoftware/" target="_blank" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://twitter.com/brave" target="_blank" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </li>
+                                <!-- </a> -->
+                            <!-- </li> -->
+                        </ul>
+                    </div>
+                    <!-- End Social Links -->
+                </div>
+            </div>
+        </div>
+        <!--/copyright-->
+    </div>
+</section>
+    <!--=== End Footer v1 ===-->
+<section id="mailchimp">
+
+    <!-- Mailchimp Subscription Bootstrap Modals -->
+    <div class="modal fade" id="mailchimpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title" id="myModalLabel">开发人员版本<br />(developer version)</h4>
+                </div>
+                <div class="modal-body">
+
+                    <form id="formRequestBuild" class="form-horizontal" onsubmit="return false">
+                      <input name="call" value="getbrave" type="hidden">
+                      <div class="form-group">
+                        <label for="MERGE1" class="col-sm-2 control-label">姓名</label>
+                        <div class="col-sm-10">
+                          <input name="MERGE1" type="text" class="form-control" id="MERGE1" placeholder="Name">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="MERGE0" class="col-sm-2 control-label">邮箱</label>
+                        <div class="col-sm-10">
+                          <input name="MERGE0" type="email" class="form-control" id="MERGE0" placeholder="Email" required aria-required="true">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label class="col-sm-2 control-label">使用的操作系统</label>
+                        <div class="col-sm-10">
+                          <div class="checkbox">
+                            <label>
+                              <input class="form-checkbox" id="group_1" name="group[12441][1]" value="Android" type="checkbox"> Android
+                            </label>
+                          </div>
+                          <div class="checkbox">
+                            <label>
+                              <input class="form-checkbox" id="group_16" name="group[12441][16]" value="Linux" type="checkbox"> Linux
+                            </label>
+                          </div>
+                          <div class="checkbox">
+                            <label>
+                              <input class="form-checkbox" id="group_2" name="group[12441][2]" value="iOS" type="checkbox"> iOS
+                            </label>
+                          </div>
+                          <div class="checkbox">
+                            <label>
+                              <input class="form-checkbox" id="group_32" name="group[12441][32]" value="Windows 32 bit build" type="checkbox"> Windows 32 bit build
+                            </label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                          <button class="btn btn-default" id="formRequestBuildSubmit">提交</button>
+                        </div>
+                      </div>
+                      <input value="bb73405b3f" name="MC_LIST_ID" type="hidden">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="mailchimpNewsletterConfirmationModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Success!</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div style="text-align: center;font-weight: bold">
+                        <img src="/assets/img/brave_logo_splash.png" alt="" style="width:60%" />
+                        <p style="font-size: 120%">感谢参加我们的电子邮箱通讯! Say hi on Twitter at <a href="https://twitter.com/brave" target="_blank">@brave</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: none" id="formRequestBuildThankYou">
+        <div style="text-align: center;font-weight: bold">
+            <img src="/assets/img/brave_logo_splash.png" alt="" style="width:60%" />
+            <p style="font-size: 120%">你现在在排队等待brave!我们有一个等候名单,但会尽快给你下载链接。</p>
+            <p style="font-size: 150%">保持联系!  Say hi on Twitter at <a href="https://twitter.com/brave" target="_blank">@brave</a></p>
+        </div>
+    </div>
+
+</section>
+
+    <!-- JS Global Compulsory -->
+    <script src="/assets/plugins/jquery/jquery.min.js"></script>
+    <script src="/assets/plugins/jquery/jquery-migrate.min.js"></script>
+    <script src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- JS Implementing Plugins -->
+    <script src="/assets/plugins/jquery.easing.min.js"></script>
+    <script src="/assets/plugins/jquery.parallax.js"></script>
+    <script src="/assets/plugins/counter/waypoints.min.js"></script>
+    <script src="/assets/plugins/counter/jquery.counterup.min.js"></script>
+    <script src="/assets/plugins/sky-forms-pro/skyforms/js/jquery.form.min.js"></script>
+    <script src="/assets/plugins/sky-forms-pro/skyforms/js/jquery.validate.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+      _paq.push(["setCookieDomain", "*.brave.com"]);
+      _paq.push(["setDomains", ["*.brave.com"]]);
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="//analytics.brave.com/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 2]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript><p><img src="//analytics.brave.com/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+    <!-- End Piwik Code -->
+
+
+    <!-- JS Page Level-->
+    <script src="/assets/js/forms/login.js"></script>
+    <script src="/assets/js/forms/contact.js"></script>
+    <script src="/assets/js/forms/mailchimp.js"></script>
+    <script src="/assets/js/brave.js"></script>
+    <script src="/assets/js/home.js"></script>
+    <script src="/assets/js/interior.js"></script>
+    <script src="/assets/js/about.js"></script>
+    <script src="/assets/js/publishers.js"></script>
+    <script src="/assets/js/youthProgram.js"></script>
+    <script>
+        jQuery(document).ready(function() {
+            // Home route
+            if(window.location.pathname.match('index') || window.location.pathname === '/') {
+                return Brave.app.home.on();
+            }
+            // About route
+            if(window.location.pathname.match('about')) {
+                return Brave.app.about.on();
+            }
+            // publishers route
+            if(window.location.pathname.match('publishers')) {
+              return Brave.app.publishers.on();
+            }
+            // Youth Program route
+            if(window.location.pathname.match('brave_youth_program')) {
+                return Brave.app.youthProgram.on();
+            }
+            // Interior page route
+            return Brave.app.interior.on();
+        });
+    </script>
+
+</body>
+</html>

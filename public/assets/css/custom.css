@@ -1,0 +1,27 @@
+/* Add here all your css styles (customizations) */
+
+/*button.navbar-toggle, button.navbar-toggle span {
+	color: #fff!important;
+	border-color: #fff !important;
+}*/
+
+li.invisible {
+    visibility: hidden;
+}
+
+
+
+
+/* Homepage Slider Styles customized */
+.request-dev-build {
+  background-color: #454545 !important;
+}
+.request-dev-build:hover, .request-dev-build:active {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+@media (min-width: 468px max-width:768px) {
+	#layerslider .ls-slide {
+		padding-top: 90px !important;
+	}
+}

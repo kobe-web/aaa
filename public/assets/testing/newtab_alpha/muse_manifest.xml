@@ -1,0 +1,181 @@
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="brave.com" resolutions="1x" timestamp="1471033177285">
+  <folder name="css">
+    <file name="site_global.css" crc="499272786"/>
+    <file name="new-tab-3.css" crc="92817551" ref="new-tab-3"/>
+    <file name="nomq_new-tab-3.css" crc="534072625" ref="new-tab-3"/>
+    <file name="new-tab-2.css" crc="4231292623" ref="new-tab-2"/>
+    <file name="nomq_new-tab-2.css" crc="42113430" ref="new-tab-2"/>
+    <file name="new-tab-4.css" crc="278000626" ref="new-tab-4"/>
+    <file name="nomq_new-tab-4.css" crc="364697348" ref="new-tab-4"/>
+    <file name="index.css" crc="4119791940" ref="index"/>
+    <file name="nomq_index.css" crc="272679572" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="169078940" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="museutils.js" crc="3851988764" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="whatinput.js" crc="86476730" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="museconfig.js" crc="169177150" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="pie.js" crc="3831537696" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="webpro.js" crc="4067903014" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="musewpdisclosure.js" crc="338211507" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="jquery.watch.js" crc="3842844514" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="jquery.museresponsive.js" crc="516761069" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="require.js" crc="4108833657" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+  </folder>
+  <folder name="images">
+    <file name="new-tab-1-favicon.ico" crc="3790848009" ref="index"/>
+    <file name="colorful-dusk-sky-above-the-field-14974-crop-u94.jpg" crc="3830652383" ref="index"/>
+    <file name="ic_apps_white_48dp-crop-u4672.png" crc="467837344" ref="index"/>
+    <file name="ic_apps_white_48dp-crop-u4696.png" crc="3994365995" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="ic_apps_white_48dp.png" crc="223400714" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="favicon_144-vflwmzoxw-u3322-a.png" crc="3852969259" ref="index"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u3324.png" crc="3938234041" ref="index"/>
+    <file name="icon-u3326.png" crc="40310614" ref="index"/>
+    <file name="default-preview-image.jpg" crc="4056161373" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="favicon-120x120.png" crc="101428975" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="2016391134551549.jpg" crc="4224736086" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="favicon_144-vflwmzoxw-u3056.png" crc="3852969259" ref="index"/>
+    <file name="google-1015752_960_720.png" crc="3856963835" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u3064.png" crc="3938234041" ref="index"/>
+    <file name="256.jpg" crc="3778511467" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="icon-u3072.png" crc="40310614" ref="index"/>
+    <file name="apple-touch-icon-1.jpg" crc="4290205654" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="medium.png" crc="4193513331" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="nyt.jpg" crc="236794926" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="logo_cnn_nav_bottom.jpg" crc="473958115" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="favicon_144-vflwmzoxw-u1860.png" crc="3852969259" ref="index"/>
+    <file name="og-fn-foxnews.jpg" crc="414920149" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u1864.png" crc="3938234041" ref="index"/>
+    <file name="192oytk94dk4cpng.jpg" crc="4294451854" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="icon-u1868.png" crc="40310614" ref="index"/>
+    <file name="favicon-160x160.jpg" crc="4018288913" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="brave_icon_128x.png" crc="457112289" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="ebay-the-new-logo.jpg" crc="3919966744" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="pinterest_favicon.png" crc="97733209" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="lower_toolbar.png" crc="3999080533" seo="true" ref="index:new-tab-2:new-tab-3:new-tab-4"/>
+    <file name="colorful-dusk-sky-above-the-field-14974.jpg" crc="4141296450" seo="true" ref="index"/>
+    <file name="favicon_144-vflwmzoxw-u3322-a2.png" crc="3852969259" ref="index"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u33242.png" crc="3938234041" ref="index"/>
+    <file name="icon-u33262.png" crc="40310614" ref="index"/>
+    <file name="favicon_144-vflwmzoxw-u30562.png" crc="3852969259" ref="index"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u30642.png" crc="3938234041" ref="index"/>
+    <file name="icon-u30722.png" crc="40310614" ref="index"/>
+    <file name="favicon_144-vflwmzoxw-u18602.png" crc="3852969259" ref="index"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u18642.png" crc="3938234041" ref="index"/>
+    <file name="icon-u18682.png" crc="40310614" ref="index"/>
+    <file name="colorful-dusk-sky-above-the-field-14974-crop-u942.jpg" crc="4220157705" ref="index"/>
+    <file name="favicon_144-vflwmzoxw-u3322-a3.png" crc="3852969259" ref="index"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u33243.png" crc="3938234041" ref="index"/>
+    <file name="icon-u33263.png" crc="40310614" ref="index"/>
+    <file name="favicon_144-vflwmzoxw-u30563.png" crc="3852969259" ref="index"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u30643.png" crc="3938234041" ref="index"/>
+    <file name="icon-u30723.png" crc="40310614" ref="index"/>
+    <file name="favicon_144-vflwmzoxw-u18603.png" crc="89349877" ref="index"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u18643.png" crc="39479562" ref="index"/>
+    <file name="icon-u18683.png" crc="3967508266" ref="index"/>
+    <file name="new-tab-2-favicon.ico" crc="3790848009" ref="new-tab-2"/>
+    <file name="dukono_volcano_reduced.jpg" crc="509029705" seo="true" ref="new-tab-2"/>
+    <file name="ic_apps_white_48dp-crop-u5641.png" crc="467837344" ref="new-tab-2"/>
+    <file name="ic_apps_white_48dp-crop-u5649.png" crc="3994365995" ref="new-tab-2"/>
+    <file name="favicon_144-vflwmzoxw-u5593.png" crc="3852969259" ref="new-tab-2"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u5601-a.png" crc="3938234041" ref="new-tab-2"/>
+    <file name="icon-u5591.png" crc="40310614" ref="new-tab-2"/>
+    <file name="favicon_144-vflwmzoxw-u5609.png" crc="3852969259" ref="new-tab-2"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u5627.png" crc="3938234041" ref="new-tab-2"/>
+    <file name="icon-u5607.png" crc="40310614" ref="new-tab-2"/>
+    <file name="favicon_144-vflwmzoxw-u5564.png" crc="3852969259" ref="new-tab-2"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u5558.png" crc="3938234041" ref="new-tab-2"/>
+    <file name="icon-u5554.png" crc="40310614" ref="new-tab-2"/>
+    <file name="dukono_volcano_reduced1259x944.jpg" crc="216657403" seo="true" ref="new-tab-2"/>
+    <file name="favicon_144-vflwmzoxw-u55932.png" crc="3852969259" ref="new-tab-2"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u5601-a2.png" crc="3938234041" ref="new-tab-2"/>
+    <file name="icon-u55912.png" crc="40310614" ref="new-tab-2"/>
+    <file name="favicon_144-vflwmzoxw-u56092.png" crc="3852969259" ref="new-tab-2"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u56272.png" crc="3938234041" ref="new-tab-2"/>
+    <file name="icon-u56072.png" crc="40310614" ref="new-tab-2"/>
+    <file name="favicon_144-vflwmzoxw-u55642.png" crc="3852969259" ref="new-tab-2"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u55582.png" crc="3938234041" ref="new-tab-2"/>
+    <file name="icon-u55542.png" crc="40310614" ref="new-tab-2"/>
+    <file name="dukono_volcano_reduced-crop-u5653.jpg" crc="4135008798" ref="new-tab-2"/>
+    <file name="favicon_144-vflwmzoxw-u55933.png" crc="3852969259" ref="new-tab-2"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u5601-a3.png" crc="3938234041" ref="new-tab-2"/>
+    <file name="icon-u55913.png" crc="40310614" ref="new-tab-2"/>
+    <file name="favicon_144-vflwmzoxw-u56093.png" crc="3852969259" ref="new-tab-2"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u56273.png" crc="3938234041" ref="new-tab-2"/>
+    <file name="icon-u56073.png" crc="40310614" ref="new-tab-2"/>
+    <file name="favicon_144-vflwmzoxw-u55643.png" crc="89349877" ref="new-tab-2"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u55583.png" crc="39479562" ref="new-tab-2"/>
+    <file name="icon-u55543.png" crc="3967508266" ref="new-tab-2"/>
+    <file name="new-tab-3-favicon.ico" crc="3790848009" ref="new-tab-3"/>
+    <file name="newzealand_river_reduced-crop-u6071.jpg" crc="4275134688" ref="new-tab-3"/>
+    <file name="ic_apps_white_48dp-crop-u6095.png" crc="467837344" ref="new-tab-3"/>
+    <file name="ic_apps_white_48dp-crop-u6079.png" crc="3994365995" ref="new-tab-3"/>
+    <file name="favicon_144-vflwmzoxw-u6165.png" crc="3852969259" ref="new-tab-3"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u6163.png" crc="3938234041" ref="new-tab-3"/>
+    <file name="icon-u6167-a.png" crc="40310614" ref="new-tab-3"/>
+    <file name="favicon_144-vflwmzoxw-u6152.png" crc="3852969259" ref="new-tab-3"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u6140.png" crc="3938234041" ref="new-tab-3"/>
+    <file name="icon-u6138.png" crc="40310614" ref="new-tab-3"/>
+    <file name="favicon_144-vflwmzoxw-u6106.png" crc="3852969259" ref="new-tab-3"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u6110.png" crc="3938234041" ref="new-tab-3"/>
+    <file name="icon-u6116.png" crc="40310614" ref="new-tab-3"/>
+    <file name="newzealand_river_reduced1255x941.jpg" crc="140000473" seo="true" ref="new-tab-3"/>
+    <file name="favicon_144-vflwmzoxw-u61652.png" crc="3852969259" ref="new-tab-3"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u61632.png" crc="3938234041" ref="new-tab-3"/>
+    <file name="icon-u6167-a2.png" crc="40310614" ref="new-tab-3"/>
+    <file name="favicon_144-vflwmzoxw-u61522.png" crc="3852969259" ref="new-tab-3"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u61402.png" crc="3938234041" ref="new-tab-3"/>
+    <file name="icon-u61382.png" crc="40310614" ref="new-tab-3"/>
+    <file name="favicon_144-vflwmzoxw-u61062.png" crc="3852969259" ref="new-tab-3"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u61102.png" crc="3938234041" ref="new-tab-3"/>
+    <file name="icon-u61162.png" crc="40310614" ref="new-tab-3"/>
+    <file name="newzealand_river_reduced-crop-u60712.jpg" crc="3899522281" ref="new-tab-3"/>
+    <file name="favicon_144-vflwmzoxw-u61653.png" crc="3852969259" ref="new-tab-3"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u61633.png" crc="3938234041" ref="new-tab-3"/>
+    <file name="icon-u6167-a3.png" crc="40310614" ref="new-tab-3"/>
+    <file name="favicon_144-vflwmzoxw-u61523.png" crc="3852969259" ref="new-tab-3"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u61403.png" crc="3938234041" ref="new-tab-3"/>
+    <file name="icon-u61383.png" crc="40310614" ref="new-tab-3"/>
+    <file name="favicon_144-vflwmzoxw-u61063.png" crc="89349877" ref="new-tab-3"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u61103.png" crc="39479562" ref="new-tab-3"/>
+    <file name="icon-u61163.png" crc="3967508266" ref="new-tab-3"/>
+    <file name="new-tab-4-favicon.ico" crc="3790848009" ref="new-tab-4"/>
+    <file name="auckland_reduced.jpg" crc="3836973569" seo="true" ref="new-tab-4"/>
+    <file name="ic_apps_white_48dp-crop-u6438.png" crc="467837344" ref="new-tab-4"/>
+    <file name="ic_apps_white_48dp-crop-u6445.png" crc="3994365995" ref="new-tab-4"/>
+    <file name="favicon_144-vflwmzoxw-u6423.png" crc="3852969259" ref="new-tab-4"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u6419.png" crc="3938234041" ref="new-tab-4"/>
+    <file name="icon-u6415.png" crc="40310614" ref="new-tab-4"/>
+    <file name="favicon_144-vflwmzoxw-u6370.png" crc="3852969259" ref="new-tab-4"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u6352.png" crc="3938234041" ref="new-tab-4"/>
+    <file name="icon-u6362.png" crc="40310614" ref="new-tab-4"/>
+    <file name="favicon_144-vflwmzoxw-u6390.png" crc="3852969259" ref="new-tab-4"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u6408.png" crc="3938234041" ref="new-tab-4"/>
+    <file name="icon-u6402.png" crc="40310614" ref="new-tab-4"/>
+    <file name="auckland_reduced-crop-u6454.jpg" crc="4059151367" ref="new-tab-4"/>
+    <file name="favicon_144-vflwmzoxw-u64232.png" crc="3852969259" ref="new-tab-4"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u64192.png" crc="3938234041" ref="new-tab-4"/>
+    <file name="icon-u64152.png" crc="40310614" ref="new-tab-4"/>
+    <file name="favicon_144-vflwmzoxw-u63702.png" crc="3852969259" ref="new-tab-4"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u63522.png" crc="3938234041" ref="new-tab-4"/>
+    <file name="icon-u63622.png" crc="40310614" ref="new-tab-4"/>
+    <file name="favicon_144-vflwmzoxw-u63902.png" crc="3852969259" ref="new-tab-4"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u64082.png" crc="3938234041" ref="new-tab-4"/>
+    <file name="icon-u64022.png" crc="40310614" ref="new-tab-4"/>
+    <file name="auckland_reduced667x501.jpg" crc="4165438386" seo="true" ref="new-tab-4"/>
+    <file name="favicon_144-vflwmzoxw-u64233.png" crc="3852969259" ref="new-tab-4"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u64193.png" crc="3938234041" ref="new-tab-4"/>
+    <file name="icon-u64153.png" crc="40310614" ref="new-tab-4"/>
+    <file name="favicon_144-vflwmzoxw-u63703.png" crc="3852969259" ref="new-tab-4"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u63523.png" crc="3938234041" ref="new-tab-4"/>
+    <file name="icon-u63623.png" crc="40310614" ref="new-tab-4"/>
+    <file name="favicon_144-vflwmzoxw-u63903.png" crc="89349877" ref="new-tab-4"/>
+    <file name="82anewdesign-resource_center-facebook_favicon-facebook_favicon-u64083.png" crc="39479562" ref="new-tab-4"/>
+    <file name="icon-u64023.png" crc="3967508266" ref="new-tab-4"/>
+  </folder>
+  <file name="index.html" crc="3875069341" seo="true" mt="1471032939421" redirect="true"/>
+  <file name="new-tab-2.html" crc="7299551" seo="true" mt="1471032854041" redirect="true"/>
+  <file name="new-tab-3.html" crc="3893949587" seo="true" mt="1471032901728" redirect="true"/>
+  <file name="new-tab-4.html" crc="431472552" seo="true" mt="1471032797745" redirect="true"/>
+</manifest>

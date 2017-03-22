@@ -1,0 +1,364 @@
+/**
+* Common welcome page shared styles
+* ...................................
+*/
+
+/**
+* Body class
+*/
+.welcome-page {
+  font-size: 17px;
+}
+
+/**
+* Blocks boilerplate
+*/
+.section-content {
+  min-height: 400px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.container-small {
+  max-width: 640px;
+  margin: auto;
+}
+
+/**
+* Arrow down link
+*/
+.next-section-link {
+  text-align: center;
+  margin: 60px 0 0;
+  font-size: 19px;
+}
+
+.next-section-link a {
+  display: inline-block;
+}
+
+.next-section-link-text {
+  display: block;
+  color: #53585f;
+}
+
+/**
+* Title helper to show images
+* before and after section title
+*/
+.title-with-image {
+  position: relative;
+}
+
+.title-with-image:before {
+  position: absolute;
+  top: 0;
+  left: -100px;
+  content: ' ';
+  background-size: 55px 65px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100px;
+}
+
+.title-with-image:after {
+  position: absolute;
+  top: 0;
+  right: -100px;
+  content: ' ';
+  background-size: 55px 65px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100px;
+}
+
+/**
+* Section title typography
+*/
+.section-title {
+  text-align: center;
+  padding: 0 15px;
+}
+
+/**
+* Images for title with images helper
+*/
+.title-with-image.verified:before {
+  background-image: url('../img/welcome/verified_badge.png');
+}
+
+.title-with-image.brave:before {
+  background-image: url('../img/welcome/brave_logo.png');
+}
+
+.title-with-image.github:after {
+  background-image: url('../img/welcome/github_logo.png');
+}
+
+/**
+* reset right gutter for offset content
+*/
+.offset-style {
+  padding: 0;
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+/**
+* Native HTML elements style
+*/
+h1, h2, h3, h4, h5, h6, p, li {
+  color: #53585f;
+} 
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+p {
+  margin: 0 0 20px;
+  font-size: 17px;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+/**
+* Mimic standard Brave browser button
+*/
+.brave-button {
+  padding: 5px 32px;
+  line-height: 1.25;
+  border: 2px solid transparent;
+  background: linear-gradient(#FF7A1D, #ff5000);
+  box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: default;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 0 3px;
+  text-align: center;
+  transition: .1s opacity, .1s background;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.brave-button:hover, .brave-button:focus {
+  text-decoration: none;
+  border: 2px solid white;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/**
+* Mimic arrow down icon
+*/
+.scroll-down-arrow {
+  display: block;
+  margin: 10px auto 0;
+  border: solid transparent;
+  width: 0;
+  border-top-color: #53585f;
+  border-width: 15px;
+}
+
+
+/**
+* Masthead block
+* ...................................
+*/
+#masthead {
+  padding: 90px 0 20px;
+  background: linear-gradient(to right, rgba(220, 222, 224, 0.25) 0%, rgba(81, 187, 269, 0.15) 100%);
+}
+
+.discover {
+  margin: 60px auto 0;
+}
+
+.discover-block {
+  text-align: center;
+  font-size: px;
+  font-weight: normal;
+}
+
+.discover-block img {
+  margin: auto;
+}
+
+.discover-description {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0 0 15px;
+}
+
+/**
+* Shields block
+* ...................................
+*/
+#shields {
+  padding: 90px 0 0;
+  background: linear-gradient(to top, rgba(220, 222, 224, 0.55) 0%, rgba(255, 255, 255, 0.3) 100%);
+}
+
+.shields-text-content h2 {
+  margin-bottom: 10px;
+}
+
+.shields-text-content p {
+  margin: 0 0 10px;
+}
+
+.shields-text-content-one-line {
+  margin: 60px 0 20px;
+  text-align: right;
+}
+
+/**
+* Extensions block
+* ...................................
+*/
+#extensions {
+  padding: 90px 0 0;
+  background: linear-gradient(to top, rgba(220, 222, 224, 0.55) 0%, rgba(255, 255, 255, 0.3) 100%);
+}
+
+.extensions-content {
+  margin-bottom: 60px;
+}
+
+.extensions-boxed-content {
+  max-width: 240px;
+  margin: 60px 0 30px;
+}
+
+/**
+* Publishers block
+* ...................................
+*/
+#publishers {
+  padding: 90px 0 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 75%, rgba(112, 191, 65, 1) 100%);
+}
+
+.publisher-highlight {
+  margin-top: 60px;
+}
+
+/**
+* Features block
+* ...................................
+*/
+#features {
+  padding: 90px 0 0;
+  background: linear-gradient(to top, rgba(220, 222, 224, 0.55) 0%, rgba(255, 255, 255, 0.3) 100%);
+}
+
+#features .wrapper {
+  background-image: url('../img/welcome/eye.svg');
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.features-description {
+  margin-bottom: 30px;
+}
+
+.features-list {
+  margin-top: 30px;
+}
+
+.features-list li {
+  font-size: 1em;
+  min-height: 250px;
+}
+
+.features-list li img {
+  max-height: 50px;
+}
+
+/**
+* About block
+* ...................................
+*/
+#about {
+  padding: 90px 0 60px;
+  background: #53585f;
+}
+
+#about h2, #about p {
+  color: #dcdee0;
+}
+
+#about a, #about a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+
+/**
+* Responsive stuff
+* ...................................
+*/
+@media screen and (max-width: 767px) {
+/** */
+  h1, h2 {
+    text-align: center;
+  }
+/** */
+  .discover-block {
+    margin-bottom: 45px;
+  }
+/** */
+  #shields img {
+    margin: auto;
+  }
+/** */
+  .shields-text-content-one-line {
+    text-align: center;
+  }
+  /** */
+  .extensions-built-in {
+    margin: auto;
+  }
+/** */
+  .extensions-boxed-content {
+    max-width: 100%;
+  }
+/** */
+  .brave-button {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+  }
+/** */
+  .features-list li {
+    min-height: auto;
+    margin-bottom: 30px;
+  }
+/** */
+  .title-with-image:before,
+  .title-with-image:after {
+    display: none;
+  }
+}
